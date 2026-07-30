@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6848d6">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Terms of Service for the Object Counter mobile app by Pegasus Studio.">
+  <title>Object Counter Terms of Service</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --page: #f5f3fb;
+      --surface: #ffffff;
+      --text: #191724;
+      --muted: #6f6b7b;
+      --heading: #38266f;
+      --accent: #6848d6;
+      --accent-soft: #eee8ff;
+      --border: #e2dcef;
+      --warning: #8a3038;
+      --warning-soft: #fff0f1;
+      --shadow: rgba(46, 33, 83, 0.09);
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top right, #e9e0ff 0, transparent 34rem),
+        var(--page);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(calc(100% - 28px), 800px);
+      margin: 24px auto;
+      padding: 36px 36px 46px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      box-shadow: 0 16px 44px var(--shadow);
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      margin-bottom: 22px;
+      color: var(--accent);
+      font-weight: 800;
+      letter-spacing: 0.01em;
+    }
+    .mark {
+      display: grid;
+      width: 42px;
+      height: 42px;
+      place-items: center;
+      border-radius: 14px;
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+    .mark svg { width: 25px; height: 25px; }
+    h1 {
+      margin: 0 0 8px;
+      color: var(--text);
+      font-size: clamp(32px, 6vw, 44px);
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+    h2 {
+      margin: 32px 0 10px;
+      color: var(--heading);
+      font-size: 21px;
+      line-height: 1.3;
+    }
+    p, li {
+      margin: 0 0 12px;
+      font-size: 16px;
+    }
+    ul {
+      margin: 0 0 16px 22px;
+      padding: 0;
+    }
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+      overflow-wrap: anywhere;
+    }
+    a:focus-visible {
+      outline: 3px solid var(--accent-soft);
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+    .updated {
+      margin-bottom: 24px;
+      color: var(--muted);
+    }
+    .warning {
+      margin: 22px 0 4px;
+      padding: 17px 19px;
+      color: var(--warning);
+      background: var(--warning-soft);
+      border-left: 4px solid var(--warning);
+      border-radius: 13px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --page: #09090c;
+        --surface: #19181e;
+        --text: #f7f4ff;
+        --muted: #b7b1c4;
+        --heading: #d9caff;
+        --accent: #cdb6ff;
+        --accent-soft: #302842;
+        --border: #34313d;
+        --warning: #ffb3ba;
+        --warning-soft: #3a2025;
+        --shadow: rgba(0, 0, 0, 0.35);
+      }
+      body {
+        background:
+          radial-gradient(circle at top right, #241b3a 0, transparent 34rem),
+          var(--page);
+      }
+    }
+    @media (max-width: 520px) {
+      main {
+        width: 100%;
+        margin: 0;
+        padding: 28px 20px 40px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      h2 { margin-top: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2"/>
+          <circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/>
+        </svg>
+      </span>
+      Object Counter
+    </div>
+    <h1>Terms of Service</h1>
+    <p class="updated">Effective as of July 31, 2026</p>
+
+    <section>
+      <h2>1. Acceptance of Terms</h2>
+      <p>By downloading, installing, accessing, or using Object Counter, you agree to these Terms of Service. If you do not agree, do not use the app.</p>
+      <p>If you are under the age of legal majority where you live, you may use the app only with permission and supervision from a parent or legal guardian.</p>
+    </section>
+
+    <section>
+      <h2>2. Description of the Service</h2>
+      <p>Object Counter is a mobile app that uses on-device computer-vision models to estimate the number and location of objects visible through a live camera or in a captured or imported image.</p>
+      <p>The app offers two counting methods. Recognize attempts to detect and name familiar object classes. Shape Count is intended for repeated, angled, or tightly packed items and may organize detections into visual groups. The app can annotate still images and store selected results locally on your device.</p>
+    </section>
+
+    <section>
+      <h2>3. Counting and Detection Limitations</h2>
+      <div class="warning"><strong>Object Counter provides estimates, not guaranteed measurements.</strong> It may miss objects, count the same object more than once, place markers incorrectly, or assign an incorrect name or group.</div>
+      <p>Results can be affected by lighting, shadows, reflections, distance, motion, focus, image quality, camera angle, cropping, object overlap, background clutter, hardware performance, model limitations, and objects that were not represented in model training.</p>
+      <p>A displayed count, label, marker, confidence result, or annotation does not prove that an object is present, absent, safe, genuine, compliant, or correctly classified.</p>
+    </section>
+
+    <section>
+      <h2>4. Not for High-Stakes or Professional Use</h2>
+      <p>Object Counter is intended for convenient, general-purpose counting and personal record keeping. It is not calibrated inspection equipment and does not provide medical, safety, engineering, legal, financial, inventory-audit, quality-control, security, law-enforcement, traffic-control, or regulatory advice or certification.</p>
+      <p>Do not rely on the app where an incorrect or incomplete result could cause injury, property damage, legal consequences, financial loss, or another material harm. Important counts must be independently checked using an appropriate qualified person, process, or instrument.</p>
+    </section>
+
+    <section>
+      <h2>5. Responsible and Lawful Use</h2>
+      <p>You are responsible for using Object Counter lawfully and for respecting privacy, intellectual-property rights, property rules, and any applicable restrictions on photography or recording.</p>
+      <p>You agree not to:</p>
+      <ul>
+        <li>use the app for unlawful, harmful, fraudulent, deceptive, or abusive purposes;</li>
+        <li>capture or use images when you do not have the necessary permission;</li>
+        <li>present app results as expert verification, an official record, or a safety or compliance certification;</li>
+        <li>interfere with, damage, or misuse the app or its supporting systems;</li>
+        <li>reverse engineer, decompile, or circumvent technical protections except where applicable law or an applicable open-source license expressly permits it;</li>
+        <li>remove copyright, trademark, attribution, or proprietary notices; or</li>
+        <li>infringe another person's privacy, intellectual property, or other rights.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Images and Local Data</h2>
+      <p>The app may request access to your camera or to images you select through an operating-system picker. It may store settings, annotated result images, counts, breakdowns, methods, sources, processing times, and timestamps locally so its features can work offline.</p>
+      <p>You are responsible for the images you capture or import and for ensuring you have the right to use them. Important records should be backed up separately. Uninstalling the app, clearing app storage, automatic removal of older results, device failure, or user deletion may permanently remove locally stored information.</p>
+    </section>
+
+    <section>
+      <h2>7. Privacy</h2>
+      <p>Our handling of information is described in the <a href="privacy_policy.html">Object Counter Privacy Policy</a>, which forms part of these terms.</p>
+    </section>
+
+    <section>
+      <h2>8. Intellectual Property and Third-Party Software</h2>
+      <p>The Object Counter name, original branding, interface designs, and original app content are owned by Pegasus Studio or licensed to us. Subject to these terms, we grant you a limited, non-exclusive, non-transferable, revocable right to install and use the distributed app on a compatible device.</p>
+      <p>The app contains third-party and open-source software, models, and other components, including Ultralytics YOLO technology. Those materials remain governed by their applicable licenses and notices. Nothing in these terms limits rights granted to you directly under an applicable open-source license.</p>
+    </section>
+
+    <section>
+      <h2>9. Third-Party Services and Links</h2>
+      <p>Object Counter may use third-party libraries, operating-system services, app-store services, and external links. Third-party products and services are governed by their own licenses, terms, and privacy policies. Pegasus Studio is not responsible for their content, availability, security, accuracy, or practices.</p>
+    </section>
+
+    <section>
+      <h2>10. App Updates and Availability</h2>
+      <p>We may update, change, suspend, or remove app features or model files at any time. Updates may be distributed through an app store. We do not guarantee that the app will remain available, work on every device, support every operating-system version, or produce the same result after an update.</p>
+    </section>
+
+    <section>
+      <h2>11. Disclaimer of Warranties</h2>
+      <p>Object Counter is provided "as is" and "as available" without warranties of any kind, express or implied. To the fullest extent permitted by law, Pegasus Studio disclaims warranties including merchantability, fitness for a particular purpose, accuracy, reliability, availability, non-infringement, and error-free operation.</p>
+    </section>
+
+    <section>
+      <h2>12. Limitation of Liability</h2>
+      <p>To the fullest extent permitted by law, Pegasus Studio and its suppliers or licensors will not be liable for indirect, incidental, consequential, special, exemplary, or punitive damages arising from use of or inability to use Object Counter. This includes incorrect or incomplete detection, counting or classification errors, decisions based on app results, loss of images or results, business interruption, property damage, personal injury, or financial loss.</p>
+      <p>Nothing in these terms excludes or limits liability that cannot legally be excluded or limited.</p>
+    </section>
+
+    <section>
+      <h2>13. Changes to These Terms</h2>
+      <p>We may update these Terms of Service when the app, its third-party components, or legal requirements change. Revised terms take effect when posted on this page. Continued use after an update means you accept the revised terms to the extent permitted by law.</p>
+    </section>
+
+    <section>
+      <h2>14. Severability</h2>
+      <p>If any provision of these terms is found invalid or unenforceable, the remaining provisions will remain in effect.</p>
+    </section>
+
+    <section>
+      <h2>15. Contact Us</h2>
+      <p>Questions about these Terms of Service can be sent through the Pegasus Studio developer support channel listed on Object Counter's app-store page or the Pegasus Studio website.</p>
+    </section>
+  </main>
+</body>
+</html>

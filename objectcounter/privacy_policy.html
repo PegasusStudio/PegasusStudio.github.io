@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6848d6">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Privacy Policy for the Object Counter mobile app by Pegasus Studio.">
+  <title>Object Counter Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --page: #f5f3fb;
+      --surface: #ffffff;
+      --text: #191724;
+      --muted: #6f6b7b;
+      --heading: #38266f;
+      --accent: #6848d6;
+      --accent-soft: #eee8ff;
+      --border: #e2dcef;
+      --shadow: rgba(46, 33, 83, 0.09);
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top right, #e9e0ff 0, transparent 34rem),
+        var(--page);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(calc(100% - 28px), 800px);
+      margin: 24px auto;
+      padding: 36px 36px 46px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      box-shadow: 0 16px 44px var(--shadow);
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      margin-bottom: 22px;
+      color: var(--accent);
+      font-weight: 800;
+      letter-spacing: 0.01em;
+    }
+    .mark {
+      display: grid;
+      width: 42px;
+      height: 42px;
+      place-items: center;
+      border-radius: 14px;
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+    .mark svg { width: 25px; height: 25px; }
+    h1 {
+      margin: 0 0 8px;
+      color: var(--text);
+      font-size: clamp(32px, 6vw, 44px);
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+    h2 {
+      margin: 32px 0 10px;
+      color: var(--heading);
+      font-size: 21px;
+      line-height: 1.3;
+    }
+    p, li {
+      margin: 0 0 12px;
+      font-size: 16px;
+    }
+    ul {
+      margin: 0 0 16px 22px;
+      padding: 0;
+    }
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+      overflow-wrap: anywhere;
+    }
+    a:focus-visible {
+      outline: 3px solid var(--accent-soft);
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+    .updated {
+      margin-bottom: 24px;
+      color: var(--muted);
+    }
+    .notice {
+      margin: 22px 0 4px;
+      padding: 17px 19px;
+      background: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      border-radius: 13px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --page: #09090c;
+        --surface: #19181e;
+        --text: #f7f4ff;
+        --muted: #b7b1c4;
+        --heading: #d9caff;
+        --accent: #cdb6ff;
+        --accent-soft: #302842;
+        --border: #34313d;
+        --shadow: rgba(0, 0, 0, 0.35);
+      }
+      body {
+        background:
+          radial-gradient(circle at top right, #241b3a 0, transparent 34rem),
+          var(--page);
+      }
+    }
+    @media (max-width: 520px) {
+      main {
+        width: 100%;
+        margin: 0;
+        padding: 28px 20px 40px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      h2 { margin-top: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2"/>
+          <circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/>
+        </svg>
+      </span>
+      Object Counter
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective as of July 31, 2026</p>
+
+    <p>Pegasus Studio built Object Counter as an offline-first mobile app. This Service is provided by Pegasus Studio and is intended for use as is.</p>
+    <p>This Privacy Policy explains how information is handled when you use Object Counter.</p>
+
+    <div class="notice"><strong>In short:</strong> Object detection runs on your device using bundled models. Object Counter does not require an account and does not upload your camera images, imported images, counts, or saved results to Pegasus Studio.</div>
+
+    <h2>Images and Camera Frames</h2>
+    <p>When you open the camera, Object Counter analyzes camera frames on your device to provide a live count. Continuous live-camera frames are not added to your saved Results.</p>
+    <p>When you capture a photo or choose an image from your gallery or files, the app processes that image on your device to detect, count, group, and annotate objects. The app does not send the image to Pegasus Studio for processing.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Camera:</strong> requested only when you choose to open the camera. It is used for live counting and photo capture.</li>
+      <li><strong>Photos or files:</strong> accessed through the operating system's picker only after you choose to import an image. The app does not browse your photo library or files in the background.</li>
+      <li><strong>Internet:</strong> the Android build declares internet access. The app's network-facing actions hand legal pages and the app-store listing to an external browser or store app. Object detection does not require an internet connection, and Object Counter does not use this permission to upload your images or results to Pegasus Studio.</li>
+    </ul>
+    <p>Object Counter does not request location, contacts, microphone, phone, notification, or account permissions.</p>
+
+    <h2>Information Stored on Your Device</h2>
+    <p>The app stores preferences such as your theme, preferred counting method, automatic-save choice, keep-screen-awake choice, and onboarding status locally on your device.</p>
+    <p>If automatic saving is enabled, or if you manually select Save, a completed still-image result with at least one detection may be stored in the app's private storage. A saved result can include:</p>
+    <ul>
+      <li>the annotated result image;</li>
+      <li>the total count and count breakdown;</li>
+      <li>the counting method and image source;</li>
+      <li>processing time and the date and time of the result.</li>
+    </ul>
+    <p>The app keeps up to 120 saved results and removes the oldest entries when that limit is exceeded. Zero-count results and continuous live-camera frames are not automatically saved.</p>
+
+    <h2>Your Choices and Data Deletion</h2>
+    <p>You can disable automatic saving in Settings. You can delete one or more saved results from Results, or clear all saved results from Settings.</p>
+    <p>Clearing the app's storage or uninstalling the app removes its locally stored information, subject to your operating system's backup, restore, and deletion behavior. Pegasus Studio cannot recover results that exist only on your device.</p>
+
+    <h2>Accounts, Advertising, and Analytics</h2>
+    <p>Object Counter does not require or provide a user account. The current version does not include advertising, behavioral analytics, cloud synchronization, or a Pegasus Studio server that receives your images, counts, or app activity.</p>
+
+    <h2>On-Device Models and Third-Party Components</h2>
+    <p>Object Counter uses bundled Ultralytics YOLO models and a locally maintained Ultralytics YOLO Flutter component for on-device computer vision. This implementation does not call an Ultralytics cloud inference service. The app also uses Flutter plugins and operating-system services for camera access, image and file selection, local preferences, private file storage, keeping the screen awake, opening external links, and displaying app information.</p>
+    <p>App stores, operating systems, device manufacturers, and third-party components may independently process limited technical information under their own terms and policies. Relevant policies include:</p>
+    <ul>
+      <li><a href="https://www.ultralytics.com/legal/privacy">Ultralytics Privacy Policy</a></li>
+      <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+      <li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
+    </ul>
+
+    <h2>External Links</h2>
+    <p>The Privacy Policy, Terms of Service, and app-store listing may open in another app or website. Once you leave Object Counter, the terms and privacy policy of that external service apply. Pegasus Studio is not responsible for third-party content or privacy practices.</p>
+
+    <h2>Logs and Diagnostics</h2>
+    <p>Object Counter does not operate a server that receives your detections or saved results. Your operating system, app store, device manufacturer, or third-party libraries may independently process technical information such as device type, operating-system version, app version, performance, and error details under their own policies.</p>
+
+    <h2>Cookies</h2>
+    <p>The Object Counter app does not use cookies. This static legal page does not include analytics scripts or advertising cookies. A hosting provider or external website may process standard request information or use technologies under its own policy.</p>
+
+    <h2>Security</h2>
+    <p>We use reasonable measures to keep detection data local and limit access to the features you request. However, no device or electronic storage method is completely secure. You are responsible for protecting access to your device and any results stored on it.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Object Counter is not directed to children under 13. We do not knowingly collect personal information from children through the app. A parent or guardian who believes a child has provided personal information to Pegasus Studio should contact us through the developer support channel listed on the app-store page or Pegasus Studio website.</p>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy when the app, its third-party components, or legal requirements change. Updated terms take effect when posted on this page. Please review it periodically.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, contact Pegasus Studio through the developer support channel listed on Object Counter's app-store page or the Pegasus Studio website.</p>
+  </main>
+</body>
+</html>
