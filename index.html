@@ -1,122 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pegasus Studio | Coming Soon</title>
-
-    <meta name="description" content="Pegasus Studio is building something exceptional. Our new website is launching soon.">
-    <meta name="robots" content="index,follow">
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Inter, "Segoe UI", Arial, sans-serif;
-            background: linear-gradient(135deg, #0f172a, #111827);
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 700px;
-            text-align: center;
-        }
-
-        .logo {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 15px;
-            letter-spacing: 1px;
-        }
-
-        p {
-            color: #cbd5e1;
-            font-size: 1.1rem;
-            line-height: 1.7;
-            margin-bottom: 30px;
-        }
-
-        .tag {
-            display: inline-block;
-            padding: 10px 20px;
-            border: 1px solid rgba(255,255,255,.15);
-            border-radius: 999px;
-            color: #93c5fd;
-            margin-bottom: 35px;
-            background: rgba(255,255,255,.05);
-        }
-
-        .contact a {
-            color: #60a5fa;
-            text-decoration: none;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            margin-top: 50px;
-            color: #64748b;
-            font-size: .9rem;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2.2rem;
-            }
-
-            p {
-                font-size: 1rem;
-            }
-
-            .logo {
-                font-size: 2.5rem;
-            }
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0d1021" />
+  <meta name="description" content="Pegasus Studio creates smart, practical Android apps for everyday discovery, measurement and productivity." />
+  <meta property="og:title" content="Pegasus Studio — Practical apps, beautifully made" />
+  <meta property="og:description" content="Explore Pegasus Studio Android apps for scanning, identifying, measuring, leveling, counting and more." />
+  <meta property="og:image" content="resources/images/pegasus-studio-banner.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pegasusstudio.net/" />
+  <title>Pegasus Studio — Practical apps, beautifully made</title>
+  <link rel="icon" type="image/jpeg" href="resources/images/pegasus-studio-icon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="resources/css/style.css" />
 </head>
 <body>
+  <div class="page-glow page-glow-a" aria-hidden="true"></div>
+  <div class="page-glow page-glow-b" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
 
-<div class="container">
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Pegasus Studio home">
+        <span class="brand-mark"><img src="resources/images/pegasus-studio-icon.jpg" alt="" /></span>
+        <span class="brand-copy"><strong>Pegasus</strong><span>Studio</span></span>
+      </a>
 
-    <div class="logo">🪽</div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="#values">Why Pegasus</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-    <div class="tag">
-        Website Under Development
+      <div class="nav-actions">
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3V1m0 22v-2M4.22 4.22 2.81 2.81m18.38 18.38-1.41-1.41M3 12H1m22 0h-2M4.22 19.78l-1.41 1.41M21.19 2.81l-1.41 1.41M17 12a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.1A8.7 8.7 0 0 1 8.9 3.5 9 9 0 1 0 20.5 15.1Z"/></svg>
+        </button>
+        <a class="button button-small button-outline play-profile-link" href="https://play.google.com/store/apps/dev?id=4959906189512392076" target="_blank" rel="noopener">Google Play</a>
+      </div>
     </div>
+  </header>
 
-    <h1>Pegasus Studio</h1>
+  <main>
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Android apps by Pegasus Studio</div>
+          <h1>Useful apps.<br /><span class="gradient-text">Thoughtfully made.</span></h1>
+          <p class="hero-lede">Smart, practical tools for everyday discovery, measurement and productivity — designed to feel simple, polished and dependable.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#apps">Explore our apps <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="https://play.google.com/store/apps/dev?id=4959906189512392076" target="_blank" rel="noopener">
+              <span class="play-triangle" aria-hidden="true"></span> View on Google Play
+            </a>
+          </div>
+          <div class="hero-notes" aria-label="Highlights">
+            <span><i>✓</i> Practical by design</span>
+            <span><i>✓</i> Privacy-minded</span>
+            <span><i>✓</i> Built for Android</span>
+          </div>
+        </div>
 
-    <p>
-        We're crafting a modern digital experience.
-        Our new website is currently under development and will be launching soon.
-    </p>
+        <div class="hero-art reveal reveal-delay-1" aria-label="Pegasus Studio brand artwork">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-card">
+            <div class="hero-card-top">
+              <span class="live-pill"><span></span> On Google Play</span>
+              <span class="mini-label">PEGASUS STUDIO</span>
+            </div>
+            <div class="brand-image-wrap">
+              <img src="resources/images/pegasus-studio-banner.jpg" alt="Pegasus Studio colorful winged horse logo" />
+            </div>
+            <div class="hero-card-bottom">
+              <div><strong>Discover.</strong><span>Identify plants, mushrooms, rocks & gems.</span></div>
+              <div><strong>Measure.</strong><span>Level, align, count and measure with ease.</span></div>
+              <div><strong>Create.</strong><span>Scan, edit and organize documents privately.</span></div>
+            </div>
+          </div>
+          <div class="float-chip chip-a"><span class="chip-icon">✦</span><span>Offline-first<br /><small>where it matters</small></span></div>
+          <div class="float-chip chip-b"><span class="chip-icon">⌁</span><span>Simple UX<br /><small>built for everyday use</small></span></div>
+        </div>
+      </div>
+    </section>
 
-    <div class="contact">
-        For inquiries, please contact us at
-        <br><br>
-        <a href="mailto:pegasusstudio365@gmail.com">pegasusstudio365@gmail.com</a>
+    <section class="brand-strip" aria-label="Pegasus Studio focus areas">
+      <div class="strip-track">
+        <span>AI DISCOVERY</span><i>✦</i><span>MEASUREMENT</span><i>✦</i><span>PRODUCTIVITY</span><i>✦</i><span>OFFLINE TOOLS</span><i>✦</i><span>PRIVACY</span><i>✦</i><span>ANDROID</span><i>✦</i>
+        <span aria-hidden="true">AI DISCOVERY</span><i aria-hidden="true">✦</i><span aria-hidden="true">MEASUREMENT</span><i aria-hidden="true">✦</i><span aria-hidden="true">PRODUCTIVITY</span><i aria-hidden="true">✦</i><span aria-hidden="true">OFFLINE TOOLS</span><i aria-hidden="true">✦</i><span aria-hidden="true">PRIVACY</span><i aria-hidden="true">✦</i><span aria-hidden="true">ANDROID</span><i aria-hidden="true">✦</i>
+      </div>
+    </section>
+
+    <section class="section-pad apps-section" id="apps">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Our apps</span>
+            <h2>Small tools. <span class="serif-accent">Big usefulness.</span></h2>
+          </div>
+          <p>From identification and scanning to measurement and leveling, each app is focused on doing one job clearly and beautifully.</p>
+        </div>
+
+        <div class="filter-bar reveal reveal-delay-1" role="group" aria-label="Filter apps">
+          <button class="filter-button active" data-filter="all" type="button">All</button>
+          <button class="filter-button" data-filter="discovery" type="button">Discovery</button>
+          <button class="filter-button" data-filter="measurement" type="button">Measurement</button>
+          <button class="filter-button" data-filter="productivity" type="button">Productivity</button>
+        </div>
+
+        <div class="apps-grid" id="appsGrid">
+          <article class="app-card reveal" data-category="productivity">
+            <div class="app-topline"><span class="category-pill">Productivity</span><a class="corner-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.paperbeam" target="_blank" rel="noopener" aria-label="Open PaperBeam on Google Play">↗</a></div>
+            <img class="app-icon" src="https://play-lh.googleusercontent.com/5AF2RQgFxqMla3Zi_owOy_dWmySU02kwVBJGcBcdbW0v2xESyoJRaD74_qCJDxeiduszHgYPb0MTvCoRzcN8=w240-h480" alt="PaperBeam app icon" loading="lazy" />
+            <h3>PaperBeam</h3>
+            <p>Scan, edit, sign, OCR, work with QR/barcodes and export PDFs — with a privacy-first approach.</p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.paperbeam" target="_blank" rel="noopener">View app <span>→</span></a>
+          </article>
+
+          <article class="app-card reveal reveal-delay-1" data-category="discovery">
+            <div class="app-topline"><span class="category-pill">Discovery</span><a class="corner-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.plantscanner" target="_blank" rel="noopener" aria-label="Open Plant Scanner on Google Play">↗</a></div>
+            <img class="app-icon" src="https://play-lh.googleusercontent.com/zfk2RVmWdY-oj7-SjlKm90QHWZhsb8RFPIy-mZFbDX3_IXOpO5vRr6aTbGuhRnSGVN7hpBaCGD_TuJYI6KVnag=w240-h480" alt="Plant Scanner app icon" loading="lazy" />
+            <h3>Plant Scanner</h3>
+            <p>Identify plants from photos, compare possible matches and explore practical plant care information.</p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.plantscanner" target="_blank" rel="noopener">View app <span>→</span></a>
+          </article>
+
+          <article class="app-card reveal reveal-delay-2" data-category="discovery">
+            <div class="app-topline"><span class="category-pill">Discovery</span><a class="corner-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.mushroomid" target="_blank" rel="noopener" aria-label="Open Mushroom ID on Google Play">↗</a></div>
+            <img class="app-icon" src="https://play-lh.googleusercontent.com/xkMKBTbGloYOzBfG5rfAwEIo4n7JryIc-_HgwFYwFGzemc9cdUda2DBpR2PRrJqVvrZqyzZ7QUzgwMNdQ9W5=w240-h480" alt="Mushroom ID app icon" loading="lazy" />
+            <h3>Mushroom ID</h3>
+            <p>Scan mushrooms from photos and explore a detailed offline field guide for responsible identification.</p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.mushroomid" target="_blank" rel="noopener">View app <span>→</span></a>
+          </article>
+
+          <article class="app-card reveal" data-category="discovery">
+            <div class="app-topline"><span class="category-pill">Discovery</span><a class="corner-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.rockscanner" target="_blank" rel="noopener" aria-label="Open Gemstone & Rock Scanner on Google Play">↗</a></div>
+            <img class="app-icon" src="https://play-lh.googleusercontent.com/HpQWplb4onXBGalweIrCO2hvVNh_vlBNap0zLbDm9SYfwAYhAHiMdgJbFDlP2ju-s0z4mNp3pqJAvs5kSfFe=w240-h480" alt="Gemstone and Rock Scanner app icon" loading="lazy" />
+            <h3>Gemstone & Rock Scanner</h3>
+            <p>Identify rocks, minerals and gemstones from your camera or photos, with an offline field guide.</p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.rockscanner" target="_blank" rel="noopener">View app <span>→</span></a>
+          </article>
+
+          <article class="app-card reveal reveal-delay-1" data-category="measurement">
+            <div class="app-topline"><span class="category-pill">Measurement</span><a class="corner-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.ruler" target="_blank" rel="noopener" aria-label="Open Ruler on Google Play">↗</a></div>
+            <img class="app-icon" src="https://play-lh.googleusercontent.com/rQw8DQ9-2oeD7nmi8KvOg9Pcb_XQg3OiDNtdb5wBFNE7Kj3SfKh5MG_fCzrA8c_Dvk2OK406LmZgU7xkGFiQQlE=w240-h480" alt="Ruler app icon" loading="lazy" />
+            <h3>Ruler</h3>
+            <p>A complete everyday measurement toolkit with ruler, level, protractor, angle and shape tools.</p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.ruler" target="_blank" rel="noopener">View app <span>→</span></a>
+          </article>
+
+          <article class="app-card reveal reveal-delay-2" data-category="measurement">
+            <div class="app-topline"><span class="category-pill">Measurement</span><a class="corner-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.compass" target="_blank" rel="noopener" aria-label="Open Compass on Google Play">↗</a></div>
+            <img class="app-icon" src="https://play-lh.googleusercontent.com/W9LI_VfjOG8b2KGyf8I16RD2VHHxlLgdlm000rLUn0cKnf4guauNRIJDvyRItkUK1fz4avJcnLzCUK9vzuRg=w240-h480" alt="Compass and Surface Level app icon" loading="lazy" />
+            <h3>Compass & Surface Level</h3>
+            <p>An elegant compass with magnetic and true heading modes, plus practical bubble-level tools.</p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.compass" target="_blank" rel="noopener">View app <span>→</span></a>
+          </article>
+
+          <article class="app-card reveal" data-category="measurement">
+            <div class="app-topline"><span class="category-pill">Measurement</span><a class="corner-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.bubblelevel" target="_blank" rel="noopener" aria-label="Open Bubble Level Compass on Google Play">↗</a></div>
+            <img class="app-icon" src="https://play-lh.googleusercontent.com/EgXaVDjtE56-XrpCrDv9PbGBo0sOvma9v-IiPOqNsbm5rMCJcaX-zR68olwyi9zBPEG4kMl2FkSMVRlH6Bg4=w240-h480" alt="Bubble Level Compass app icon" loading="lazy" />
+            <h3>Bubble Level Compass</h3>
+            <p>A clean bubble level and compass with angle readings, smooth sensors and easy calibration.</p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.bubblelevel" target="_blank" rel="noopener">View app <span>→</span></a>
+          </article>
+
+          <article class="app-card reveal reveal-delay-1" data-category="discovery">
+            <div class="app-topline"><span class="category-pill">AI Utility</span><a class="corner-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.objectcounter" target="_blank" rel="noopener" aria-label="Open Object Counter on Google Play">↗</a></div>
+            <img class="app-icon" src="https://play-lh.googleusercontent.com/ldT2GevHc7zGoA3MZeB0FV1ND6SakxbQrwqIeDGxnBIAh8FtBvepf344LYy4e_ghScMrd7fW4juTBRqzTIMYcg=w240-h480" alt="Object Counter app icon" loading="lazy" />
+            <h3>Object Counter</h3>
+            <p>Count objects in real time or from photos using on-device AI and clear visual detection overlays.</p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.pegasusstudio.objectcounter" target="_blank" rel="noopener">View app <span>→</span></a>
+          </article>
+        </div>
+
+        <div class="apps-cta reveal">
+          <span>See the complete collection and future releases</span>
+          <a class="button button-primary" href="https://play.google.com/store/apps/dev?id=4959906189512392076" target="_blank" rel="noopener">Open developer page <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="visual-frame">
+            <div class="visual-glow"></div>
+            <img src="resources/images/pegasus-studio-icon.jpg" alt="Colorful Pegasus Studio winged horse" />
+            <span class="visual-caption">Built with curiosity.</span>
+          </div>
+        </div>
+        <div class="about-copy reveal reveal-delay-1">
+          <span class="section-kicker">About Pegasus Studio</span>
+          <h2>Technology should feel <span class="serif-accent">effortless.</span></h2>
+          <p>We build focused Android apps that turn everyday devices into useful tools — whether you are discovering something in nature, measuring a surface, counting objects or organizing documents.</p>
+          <p>Our approach is simple: solve a real problem, keep the interface clear, and make the experience pleasant enough to use again and again.</p>
+          <div class="signature-line"><span></span> Pegasus Studio</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad values-section" id="values">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div>
+            <span class="section-kicker">Our approach</span>
+            <h2>Designed around <span class="serif-accent">what matters.</span></h2>
+          </div>
+          <p>Useful software does not need to feel complicated.</p>
+        </div>
+        <div class="values-grid">
+          <article class="value-card reveal">
+            <span class="value-number">01</span>
+            <div class="value-icon">◇</div>
+            <h3>Focused & practical</h3>
+            <p>Clear tools for real tasks, with fewer distractions between you and the thing you want to do.</p>
+          </article>
+          <article class="value-card reveal reveal-delay-1">
+            <span class="value-number">02</span>
+            <div class="value-icon">◉</div>
+            <h3>Privacy-minded</h3>
+            <p>Where possible, core features are designed to work locally on your device and keep your data under your control.</p>
+          </article>
+          <article class="value-card reveal reveal-delay-2">
+            <span class="value-number">03</span>
+            <div class="value-icon">✦</div>
+            <h3>Polished by default</h3>
+            <p>Thoughtful typography, spacing, interactions and dark-mode friendly design make utility feel elegant.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-decor decor-a"></div>
+          <div class="contact-decor decor-b"></div>
+          <span class="section-kicker light">Say hello</span>
+          <h2>Questions, feedback<br />or an app idea?</h2>
+          <p>We would love to hear from you.</p>
+          <div class="contact-actions">
+            <a class="button button-white" href="mailto:pegasusstudio365@gmail.com">pegasusstudio365@gmail.com</a>
+            <a class="button button-glass" href="https://play.google.com/store/apps/dev?id=4959906189512392076" target="_blank" rel="noopener">Visit Google Play ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark"><img src="resources/images/pegasus-studio-icon.jpg" alt="" /></span>
+          <span class="brand-copy"><strong>Pegasus</strong><span>Studio</span></span>
+        </a>
+        <p>Smart, practical Android apps for everyday discovery and measurement.</p>
+      </div>
+      <div class="footer-links">
+        <div><strong>Explore</strong><a href="#apps">Apps</a><a href="#about">About</a><a href="#values">Why Pegasus</a></div>
+        <div><strong>Connect</strong><a href="mailto:pegasusstudio365@gmail.com">Email</a><a href="https://play.google.com/store/apps/dev?id=4959906189512392076" target="_blank" rel="noopener">Google Play</a></div>
+      </div>
     </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Pegasus Studio. All rights reserved.</span>
+      <span>Made for useful moments.</span>
+    </div>
+  </footer>
 
-    <footer>
-        © 2026 Pegasus Studio. All Rights Reserved.
-    </footer>
-
-</div>
-
+  <script src="resources/js/main.js"></script>
 </body>
 </html>
