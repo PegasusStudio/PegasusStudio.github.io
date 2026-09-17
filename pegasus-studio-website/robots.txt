@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pegasusstudio.net/sitemap.xml
