@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eef0ff">
+  <meta name="description" content="How Text Scanner handles images, recognized text, settings, and sharing.">
+  <title>Text Scanner — Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #f5f6fc;
+      --paper: #ffffff;
+      --ink: #171a2f;
+      --muted: #626a80;
+      --line: #e4e7f3;
+      --accent: #5d63e6;
+      --accent-deep: #434abd;
+      --tint: #eef0ff;
+      --cyan-tint: #e9f8fc;
+      --shadow: 0 22px 64px rgba(47, 53, 113, .09);
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 8% 0%, #e6e9ff 0, transparent 360px),
+        radial-gradient(circle at 96% 18%, #e6f8fc 0, transparent 320px),
+        var(--canvas);
+      color: var(--ink);
+      font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a {
+      color: var(--accent-deep);
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+      overflow-wrap: anywhere;
+    }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 3px; }
+    .page { width: min(100% - 32px, 820px); margin: 30px auto 54px; }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 20px 8px;
+      color: var(--accent-deep);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+    .mark {
+      position: relative;
+      display: inline-block;
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #5d63e6, #8e8cf6);
+      box-shadow: 0 8px 18px rgba(93, 99, 230, .20);
+    }
+    .mark::before, .mark::after {
+      content: "";
+      position: absolute;
+      left: 11px;
+      height: 2px;
+      border-radius: 2px;
+      background: #fff;
+    }
+    .mark::before { top: 14px; width: 17px; }
+    .mark::after { top: 21px; width: 12px; }
+    main {
+      overflow: hidden;
+      padding: 42px 48px 46px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 8px 0 10px;
+      font-size: clamp(34px, 6vw, 46px);
+      line-height: 1.12;
+      letter-spacing: -.045em;
+    }
+    .date { margin: 0 0 25px; color: var(--muted); font-size: 14px; }
+    .lead { max-width: 670px; font-size: 18px; line-height: 1.55; }
+    h2 {
+      margin: 34px 0 10px;
+      color: var(--ink);
+      font-size: 21px;
+      line-height: 1.3;
+      letter-spacing: -.02em;
+    }
+    p, li { margin: 0 0 13px; }
+    ul { margin: 0 0 17px; padding-left: 23px; }
+    li { padding-left: 2px; }
+    .notice {
+      margin: 28px 0 6px;
+      padding: 18px 21px;
+      border: 1px solid #dfe3ff;
+      border-left: 4px solid var(--accent);
+      border-radius: 16px;
+      background: linear-gradient(110deg, var(--tint), var(--cyan-tint));
+    }
+    .notice p { margin: 5px 0 0; }
+    .related {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 38px;
+      padding-top: 19px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer { padding: 18px 8px 0; color: var(--muted); font-size: 13px; text-align: center; }
+    @media (max-width: 600px) {
+      .page { width: 100%; margin: 0; }
+      .brand { margin: 20px 20px 16px; }
+      main { padding: 30px 22px 38px; border: 0; border-radius: 26px 26px 0 0; box-shadow: none; }
+      h2 { margin-top: 29px; }
+      footer { padding: 18px 22px 28px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --canvas: #0e0f1a;
+        --paper: #191b2c;
+        --ink: #f5f5ff;
+        --muted: #b6bad0;
+        --line: #34384f;
+        --accent: #aaa8ff;
+        --accent-deep: #c2c2ff;
+        --tint: #292c50;
+        --cyan-tint: #1a3440;
+        --shadow: 0 22px 64px rgba(0, 0, 0, .22);
+      }
+      body {
+        background:
+          radial-gradient(circle at 8% 0%, #202347 0, transparent 360px),
+          radial-gradient(circle at 96% 18%, #18333d 0, transparent 320px),
+          var(--canvas);
+      }
+      .notice { border-color: #404777; border-left-color: var(--accent); }
+    }
+    @media print {
+      body { background: #fff; color: #171a2f; }
+      .page { width: 100%; margin: 0; }
+      main { padding: 0; border: 0; border-radius: 0; box-shadow: none; }
+      .notice { background: #f1f2ff; }
+      a { color: #434abd; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="brand"><span class="mark" aria-hidden="true"></span><span>Text Scanner <span aria-hidden="true">·</span> Pegasus Studio</span></header>
+    <main>
+      <div class="eyebrow">Your information</div>
+      <h1>Privacy Policy</h1>
+      <p class="date">Effective as of September 23, 2026</p>
+      <p class="lead">Text Scanner is an offline Android app for turning images into editable text. This policy explains what stays on your device and what happens when you choose to save or share a result.</p>
+
+      <aside class="notice">
+        <strong>The short version</strong>
+        <p>Your images and recognized text are processed and stored locally. Text Scanner does not require an account, upload your scans to Pegasus Studio, or include ads or app analytics.</p>
+      </aside>
+
+      <section>
+        <h2>Information you provide</h2>
+        <p>You can take photos, select images through Android's photo or file picker, edit recognized text, name documents, and add folders or tags. The app uses that information to create and organize your documents on your device.</p>
+        <p>Text recognition uses bundled Google ML Kit models for Latin, Chinese, Devanagari, Japanese, and Korean scripts. The image and resulting text are processed on the device; the app does not send them to Pegasus Studio for recognition.</p>
+      </section>
+
+      <section>
+        <h2>Permissions and device access</h2>
+        <ul>
+          <li><strong>Camera:</strong> requested only when you choose to take a photo. You can import images without granting camera access.</li>
+          <li><strong>Photos and files:</strong> selected through Android's system pickers. The app accesses the items you choose rather than browsing your library in the background.</li>
+          <li><strong>Speech:</strong> uses an installed Android text-to-speech engine to read your edited text aloud. The app does not request microphone access.</li>
+        </ul>
+        <p>Text Scanner does not request Android internet, location, contacts, or broad storage permissions. Opening a legal link or sharing a document may launch another app, which operates under its own permissions and privacy practices.</p>
+      </section>
+
+      <section>
+        <h2>Information stored locally</h2>
+        <p>The app keeps original images, thumbnails, editable recognized text, document titles, folders, tags, and preferences such as theme, language selection, and speech settings in app-private storage. Android backup is disabled for the app.</p>
+        <p>You can delete individual pages or documents, or clear all app data from Settings. Uninstalling the app or clearing its storage also removes locally stored app data, subject to your device's deletion behavior. Copies you previously saved or shared outside the app are not removed by these actions.</p>
+      </section>
+
+      <section>
+        <h2>Offline speech and voices</h2>
+        <p>Text Scanner offers installed offline voices and does not download voices itself. Voice availability depends on your device and text-to-speech engine. That engine is supplied by Android or another provider and may have its own privacy policy.</p>
+      </section>
+
+      <section>
+        <h2>Exports and sharing</h2>
+        <p>When you save a PDF, DOCX, plain-text file, or ZIP, a copy is written to the location you choose through Android's Save As interface. When you share, the content is handed to the app you select in Android's share sheet. The receiving app or destination then controls its copy.</p>
+        <p>Sharing can create temporary export files in app cache. Text Scanner attempts to remove those temporary files after the share action, but Android or another app may retain a copy you chose to send.</p>
+      </section>
+
+      <section>
+        <h2>Third-party technology</h2>
+        <p>Text Scanner uses Google ML Kit for on-device text recognition and Android services for camera access, image selection, speech, file saving, and sharing. Google's ML Kit documentation says input images and OCR outputs are processed on-device; it also describes limited app, device, and performance metrics that the SDK may process under Google's policies. Text Scanner's Android build does not request internet permission.</p>
+        <p>For more information, see <a href="https://developers.google.com/ml-kit/terms">Google ML Kit Terms and Privacy</a>, <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and <a href="https://play.google.com/about/play-terms/">Google Play Terms of Service</a>.</p>
+      </section>
+
+      <section>
+        <h2>Diagnostics, cookies, and external links</h2>
+        <p>Pegasus Studio does not operate a Text Scanner server that receives your scans or app activity. Your device, app store, text-to-speech provider, or other services you choose may handle technical information under their own policies.</p>
+        <p>The Text Scanner app does not use cookies. This legal website or sites linked from it may use cookies or similar technologies under their own policies. Once an external page or app opens, its privacy practices apply.</p>
+      </section>
+
+      <section>
+        <h2>Security and children's privacy</h2>
+        <p>App-private storage and limited permissions reduce unnecessary access, but no device or storage method is completely secure. Protect your device and review documents before sharing them, especially if they contain sensitive information.</p>
+        <p>Text Scanner is not directed to children under 13. We do not knowingly collect personal information from children through the app.</p>
+      </section>
+
+      <section>
+        <h2>Changes and contact</h2>
+        <p>We may update this policy when the app or applicable requirements change. The effective date above will be revised when changes are posted. Questions can be sent to Pegasus Studio through the developer support channel listed on the app's Google Play page or website.</p>
+      </section>
+
+      <div class="related"><span>Text Scanner by Pegasus Studio</span><a href="terms_and_conditions.html">Read the Terms and Conditions →</a></div>
+    </main>
+    <footer>© 2026 Pegasus Studio. All rights reserved.</footer>
+  </div>
+</body>
+</html>
