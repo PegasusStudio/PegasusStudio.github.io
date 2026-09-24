@@ -1,0 +1,5 @@
+Make 8 elegant Play Store promo images and 1 feature graphic for my app using image generation, not scripted collage.
+Use my app icon, screenshots, and app details as references.
+Make each promo image focus on one feature with a big headline, short supporting text, polished layout, premium background, and beautiful screenshot presentation.
+Keep all images visually consistent and Play Store ready.
+Also create a 1024×500 feature graphic with the content centered and outer 15–20% kept empty for possible Play Store trimming.
