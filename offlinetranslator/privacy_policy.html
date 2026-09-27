@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5d63e6">
+  <meta name="description" content="How Offline Translator by Pegasus Studio handles text, photos, speech, local history, and language downloads.">
+  <title>Offline Translator Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: #f5f6fc; color: #14172b; font-family: Arial, sans-serif; line-height: 1.65; }
+    main { width: min(calc(100% - 28px), 780px); margin: 24px auto; padding: 34px 34px 44px; background: #fff; border: 1px solid #e6e8f2; border-radius: 24px; box-shadow: 0 14px 40px rgba(35, 40, 90, .06); }
+    .brand { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 22px; color: #474ec4; font-weight: 700; }
+    .mark { display: grid; width: 40px; height: 40px; place-items: center; border-radius: 13px; background: #eceeff; font-size: 22px; }
+    h1 { margin: 0 0 8px; font-size: clamp(30px, 6vw, 42px); line-height: 1.12; letter-spacing: -.02em; }
+    h2 { margin: 32px 0 10px; color: #383e94; font-size: 21px; line-height: 1.3; }
+    p, li { margin: 0 0 12px; font-size: 16px; }
+    ul { margin: 0 0 16px 22px; padding: 0; }
+    a { color: #474ec4; text-decoration-thickness: 1.5px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid #5d63e6; outline-offset: 4px; border-radius: 2px; }
+    .updated { margin-bottom: 24px; color: #646c85; }
+    .notice { margin: 22px 0 4px; padding: 16px 18px; background: #eef0ff; border-left: 4px solid #5d63e6; border-radius: 12px; }
+    footer { margin-top: 32px; padding-top: 18px; border-top: 1px solid #e6e8f2; font-size: 14px; color: #646c85; }
+    @media (max-width: 520px) {
+      main { width: 100%; margin: 0; padding: 26px 20px 38px; border: 0; border-radius: 0; box-shadow: none; }
+      h2 { margin-top: 27px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand"><span class="mark" aria-hidden="true">文</span>Offline Translator</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective as of September 27, 2026</p>
+
+    <p>Pegasus Studio built Offline Translator as an offline-first language app for Android. This Privacy Policy explains how information is handled when you use the app.</p>
+    <div class="notice"><strong>In short:</strong> Text translation and photo text recognition run on your device. Translation and conversation history are stored locally. No account is required, and the app does not upload your text, photos, or conversations to Pegasus Studio. Language downloads, third-party diagnostics, and Android speech services can involve network connections, as explained below.</div>
+
+    <h2>Information You Choose to Provide</h2>
+    <p>You may type or paste text, speak into the microphone, take photos, select photos, crop images, and use conversation mode. The app uses this content to recognize text, translate it, read text aloud, and provide the features you request.</p>
+    <p>The app does not maintain its own saved audio-recording library. Recognized speech can become text in translation or conversation history. The speech recognition service installed on your device handles microphone audio under its own policies.</p>
+
+    <h2>Translation and Photo Text</h2>
+    <p>Offline Translator uses Google ML Kit for text translation and photo text recognition. Google states that the input text and images, and the resulting outputs, are processed on-device and are not sent to Google servers by these ML Kit APIs. See <a href="https://developers.google.com/ml-kit/terms">Google ML Kit Terms and Privacy</a>.</p>
+    <p>Supported photo text recognition files are included with the Android app. Translation languages may need an initial download before they can be used offline. A language listed in the app does not necessarily support every feature or writing system.</p>
+
+    <h2>Speech and Voice Services</h2>
+    <p>Speak uses the Android speech recognition service installed on your device. The app requests offline recognition, but whether that request is honored depends on the service, device, and installed language files. Android documents that an <a href="https://developer.android.com/reference/android/speech/RecognizerIntent#EXTRA_PREFER_OFFLINE">offline recognition request may not be honored by every recognizer</a>. We cannot guarantee that every third-party recognizer keeps audio offline.</p>
+    <p>Voice playback uses an installed Android text-to-speech service. The app selects voices reported by that service as installed and not requiring a network connection. The service receives the text needed to speak it and is responsible for its own processing and diagnostics.</p>
+    <p>Downloading speech languages or voices, opening speech settings, and installing or updating a speech service may connect to the service provider. Review your provider's privacy policy and device settings; Google services are covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Microphone:</strong> used when you choose Speak in Translate or conversation mode. You can use typed text or photos without granting microphone access.</li>
+      <li><strong>Camera:</strong> used when you choose to take photos or open camera translator. You can use other input methods without granting camera access.</li>
+      <li><strong>Photos:</strong> selected through the system photo picker when you choose images. The app does not browse your photo library in the background.</li>
+      <li><strong>Internet access:</strong> allows language downloads and connections made by included services. Offline-first does not mean the app has no network permission.</li>
+    </ul>
+    <p>You can revoke camera or microphone access in Android app settings. Features that need the revoked permission will not work until you grant it again.</p>
+
+    <h2>Information Stored on Your Device</h2>
+    <p>Local information can include:</p>
+    <ul>
+      <li>Translation history: original and translated text, chosen languages, input method, and date and time.</li>
+      <li>Conversation history: saved sessions, messages and translations, language choices, and dates and times.</li>
+      <li>Settings: app language, theme, last selected languages, selected speech languages and voices, playback preferences, conversation controls, and onboarding completion.</li>
+      <li>Captured, selected, or cropped image files used for photo text, including temporary or cached copies, and downloaded language files.</li>
+    </ul>
+    <p>The app currently keeps up to 200 translation history entries and 100 conversation sessions, replacing older entries when those limits are exceeded. History records contain text; they do not store the original microphone audio or attach the scanned photos to those records.</p>
+
+    <h2>Deletion, Retention, and Device Backups</h2>
+    <p>You can delete individual entries or clear each history list from its respective History page in Settings. Clearing a text field or the current conversation screen is not the same as deleting saved history. Removing an image from the app's selection does not delete the original from your photo library.</p>
+    <p>Local history and settings remain until removed, replaced by the app's history limits, or erased through Android's app-storage controls. Temporary files may be cleared by the app or Android. Downloaded translation files can be managed in Language downloads; speech languages and voices may be managed by a separate system service.</p>
+    <p>Clearing app storage or uninstalling generally removes app-local data. Android, your device manufacturer, or your backup provider may back up or restore some app data according to your device settings. The app does not provide its own cloud history-sync service. Copies you have shared, files saved outside app storage, and language files owned by another service may remain.</p>
+
+    <h2>Third-Party Diagnostics and Downloads</h2>
+    <p>Google ML Kit can connect to Google for language files, fixes, and compatibility information. It also sends performance and usage metrics to Google. Depending on the API, these can include app and device details, installation identifiers, and diagnostic information. These technical metrics are separate from your translation text and photos. Google's <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure information</a> and <a href="https://policies.google.com/privacy">Privacy Policy</a> describe this processing.</p>
+    <p>The app does not include its own advertising, analytics, crash-reporting, or account service. Your speech provider, operating system, device manufacturer, and app store may independently process technical information under their own policies. App distribution is also subject to the <a href="https://play.google.com/about/play-terms/">Google Play Terms of Service</a>.</p>
+
+    <h2>Sharing, Clipboard, and External Links</h2>
+    <p>Sharing sends the content you choose to the app or recipient you select. Copying places text on your device's system clipboard. Other apps or services may handle that content according to their own permissions and policies. We do not control content after you share or copy it.</p>
+    <p>Opening legal pages, the app store listing, or speech settings may take you to another app or website. Those services have their own privacy practices.</p>
+
+    <h2>Phrases and Quotations</h2>
+    <p>The app includes bundled phrases and quotations in multiple languages. Browsing them does not require sending your selections to Pegasus Studio. Voice playback, copying, or sharing this content follows the behavior described above.</p>
+
+    <h2>Cookies</h2>
+    <p>The mobile app does not use browser cookies. This policy page contains no scripts, tracking pixels, or cookie-setting code. The website hosting it may independently process visitor information, such as IP addresses and server logs, or use cookies under its website policies.</p>
+
+    <h2>Security</h2>
+    <p>We limit requested permissions and keep app history in local app storage. No device or storage method is completely secure. Protect your device, review backup settings, and avoid entering confidential information when you do not trust the speech service, keyboard, clipboard, or sharing destination you use.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Offline Translator does not require a user profile and does not knowingly collect children's personal information through a Pegasus Studio account or content-upload service. If you believe a child has provided personal information to Pegasus Studio, contact us through the developer support channel listed on the app's store page or website.</p>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update this policy as the app or applicable requirements change. We will update the effective date and provide additional notice when required. Please review this page periodically.</p>
+
+    <h2>Contact Us</h2>
+    <p>For privacy questions, contact Pegasus Studio through the developer support channel listed on Offline Translator's <a href="https://play.google.com/store/apps/details?id=com.pegasusstudio.offlinetranslator">Google Play page</a> or <a href="https://pegasusstudio.net/">Pegasus Studio website</a>.</p>
+    <footer>Offline Translator · Pegasus Studio · <a href="terms_and_conditions.html">Terms and Conditions</a></footer>
+  </main>
+</body>
+</html>
