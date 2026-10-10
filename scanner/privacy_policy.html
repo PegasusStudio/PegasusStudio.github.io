@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PaperBeam Privacy Policy</title>
+  <title>Easy Scan Privacy Policy</title>
   <style>
     body { font-family: Arial, sans-serif; line-height: 1.65; margin: 24px; color: #181D35; }
     h1 { font-size: 28px; margin-bottom: 8px; }
@@ -14,38 +14,89 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: June 28, 2026</p>
+  <p class="updated">Last updated: October 10, 2026</p>
 
-  <p>PaperBeam is a private, offline-first document scanner. This policy explains what information the app handles, where it is stored, and what choices you have when using the app.</p>
+  <p>Easy Scan, published by Pegasus Studio, is an offline-first document scanner and productivity app. This Privacy Policy explains how the app handles your documents and how advertising, analytics, subscriptions, and related services process information.</p>
 
-  <h2>Information PaperBeam handles</h2>
-  <p>PaperBeam lets you scan, import, edit, organize, sign, export, and share documents. The documents, images, PDFs, folders, tags, signatures, and app preferences you create are stored locally on your device unless you choose to export or share them.</p>
+  <h2>Privacy at a glance</h2>
+  <ul>
+    <li>Your document library is stored on your device, not in a document cloud service operated by us.</li>
+    <li>We do not upload your scans, recognized text, signatures, or watermark images to our subscription backend or send their contents to advertising or analytics services.</li>
+    <li>No Easy Scan account or app login is required. Google Play handles the account used for subscription purchases and restoration.</li>
+    <li>The app includes Google advertising and analytics services. Subscription verification uses a backend hosted on Google Firebase.</li>
+    <li>Those services process technical, usage, security, or purchase information as described below. Offline-first does not mean that every app service avoids data transmission.</li>
+  </ul>
 
-  <h2>Information we do not collect</h2>
-  <p>PaperBeam does not require an account. The app does not include cloud sync, advertising SDKs, analytics SDKs, or a backend service operated by us. We do not intentionally collect, sell, rent, or share your scanned documents or personal information.</p>
+  <h2>Documents and information stored on your device</h2>
+  <p>Easy Scan accesses the camera images, photos, and files you choose to scan or import. Scanned pages, PDFs, recognized text, document names, folders, tags, saved signatures, watermark images, generated QR codes and barcodes, app preferences, and usage-limit counters are stored locally to provide the features you use.</p>
+  <p>App-managed files are generally stored in private app storage. Exports may also be saved in a folder you select, including a default save folder. Files saved outside the app can be accessed by other apps or people according to the destination's permissions. We do not provide automatic cloud synchronization of your document library.</p>
 
-  <h2>Local storage</h2>
-  <p>PaperBeam stores document files and generated exports in the app's private storage area. Metadata such as document names, folders, tags, page order, signature settings, and preferences is stored locally. If you uninstall the app, the operating system may remove this local data unless your device backup system restores it.</p>
+  <h2>Scanning, text recognition, and read-aloud</h2>
+  <p>Document scanning and text recognition use on-device processing, including Google ML Kit. ML Kit does not send the images or text it processes, or the recognition results, to Google servers for recognition. It can contact Google for service updates and send technical performance and usage metrics. See <a href="https://developers.google.com/ml-kit/terms">Google ML Kit's privacy information</a>.</p>
+  <p>When you choose Listen, the selected text is passed to your device's text-to-speech engine. The Android app selects voices reported as available offline. Installed speech engines and voice downloads are provided by the operating system or third parties and are subject to their own privacy practices.</p>
 
-  <h2>Permissions</h2>
-  <p>PaperBeam may ask for camera access so you can scan documents, QR codes, or barcodes. It may also request access to photos or files only when you choose to import from your device. You can manage permissions in your device settings.</p>
+  <h2>Advertising</h2>
+  <p>Easy Scan uses Google AdMob through the Google Mobile Ads SDK to display ads to eligible users. The SDK can collect and share IP addresses, advertising and other device or account-related identifiers, app and ad interactions, and diagnostic information. An IP address may be used to estimate approximate location. This information supports ad delivery, measurement, analytics, and fraud prevention.</p>
+  <p>Ad personalization and data use can depend on Google settings, device settings, region, and applicable consent signals. Your Android settings may let you reset or delete the advertising ID. These controls do not necessarily stop every kind of technical data processing. We do not use your scanned document contents to target ads.</p>
+  <p>The app does not request ads while its verified Pro access is active. Pro access does not disable analytics or the security and subscription checks described in this policy. Learn more in <a href="https://policies.google.com/technologies/ads">Google's advertising information</a> and the <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads SDK data disclosure</a>.</p>
 
-  <h2>Sharing and exporting</h2>
-  <p>When you choose to share or export a PDF, image, QR result, or other content, PaperBeam hands that content to the system share sheet or another app you select. The privacy practices of the receiving app or service are controlled by that third party, not by PaperBeam.</p>
+  <h2>Analytics</h2>
+  <p>We use Google Analytics for Firebase to understand app usage and improve Easy Scan. Its default collection can include app-instance identifiers, advertising identifiers where available, device and operating-system information, app version, language, approximate location, session information, and automatically collected events such as app launches, updates, and purchase-related activity.</p>
+  <p>We do not send your scanned documents, recognized text, signature images, watermark images, or QR and barcode contents as analytics event data. Analytics identifiers are not an Easy Scan account and should not be treated as a guarantee of anonymity. See <a href="https://support.google.com/analytics/answer/11593727?hl=en">Google Analytics data collection information</a>.</p>
 
-  <h2>Third-party services</h2>
-  <p>PaperBeam uses platform capabilities and open-source packages to provide scanning, file picking, image processing, PDF generation, and sharing. App stores, operating systems, and selected destination apps may process information according to their own policies.</p>
+  <h2>Subscriptions and purchase verification</h2>
+  <p>Google Play processes Android subscription purchases and manages the purchasing account. We do not receive your full payment-card details or Google account password.</p>
+  <p>To verify purchases, restore access, and handle renewals or other subscription changes, Easy Scan sends app and product identifiers and Google Play purchase tokens to our shared billing backend. This backend uses Cloud Functions for Firebase, Cloud Firestore, and the Google Play Developer API.</p>
+  <p>The backend stores purchase tokens and related verification records, including subscription product and plan identifiers, subscription status, trial or renewal information, access-end dates, and verification timestamps. Google Play subscription-change notifications can also update these records. They are used for subscription access, restoration, and abuse prevention, not for storing or analyzing your documents.</p>
+  <p>Purchase restoration uses the Google Play account that owns the purchase rather than an Easy Scan account. The app can store a signed subscription-access record and timing information locally in an encrypted, installation-specific cache for bounded offline access.</p>
+
+  <h2>Security checks and technical information</h2>
+  <p>Firebase App Check and Google's Play Integrity service help verify that billing requests come from the expected app. They process app and device attestation information and security tokens. Backend requests and cloud infrastructure can also process IP addresses and other connection information.</p>
+  <p>Our rate-limiting records use hashed, IP-derived keys and hashed receipt identifiers rather than storing raw IP addresses in those records. This helps prevent excessive or abusive requests, but it does not make all associated information anonymous. Operational service logs may process connection metadata. The app does not use a device identifier as proof that you own a subscription.</p>
+
+  <h2>Permissions and device features</h2>
+  <ul>
+    <li><strong>Camera:</strong> used to capture documents, ID cards, QR codes, or barcodes when you choose a camera feature.</li>
+    <li><strong>Photos and files:</strong> used to access items you select for importing and destinations you select for saving exports.</li>
+    <li><strong>Sharing and printing:</strong> used to send selected content to your chosen apps or device print service.</li>
+  </ul>
+  <p>You can manage available permissions through your device settings. Denying a permission may prevent the related feature from working. The app does not request precise GPS location for scanning; advertising services can infer approximate location from connection information.</p>
+
+  <h2>Sharing, exporting, and external services</h2>
+  <p>When you export, share, print, or open a scanned link, you decide which content and destination to use. A receiving app, website, printer service, or cloud-connected save destination may process or upload that content under its own policies. Copies you export or share are not removed when you delete the original inside Easy Scan.</p>
+  <p>Google processes information for advertising, analytics, app-integrity checks, cloud hosting, and purchases under the relevant service terms and privacy policies. Data processed by these services can be stored or processed in the United States or other countries where their providers operate.</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+    <li><a href="https://firebase.google.com/support/privacy">Firebase privacy and security information</a></li>
+    <li><a href="https://policies.google.com/technologies/ads">Google advertising information</a></li>
+    <li><a href="https://developers.google.com/ml-kit/terms">Google ML Kit terms and privacy information</a></li>
+  </ul>
+  <p>We do not sell your scanned document contents. The advertising-related collection and sharing described above is separate from your locally stored documents. We may disclose information we hold where necessary to meet a legal obligation, respond to a valid legal request, or protect users and our services.</p>
+
+  <h2>Retention and deletion</h2>
+  <ul>
+    <li><strong>Local data:</strong> retained on your device until you delete it, clear app data, or uninstall the app. These actions can remove app-private data. Exported files, shared copies, and any copies managed by your device or another service must be deleted separately.</li>
+    <li><strong>Subscription records:</strong> can remain on our backend beyond a billing period to support restoration, subscription verification, fraud prevention, and applicable legal obligations. Uninstalling the app or canceling renewal does not automatically delete these records.</li>
+    <li><strong>Rate-limit records:</strong> marked for expiration after 24 hours; database cleanup may occur later. Other cloud logs and Google-service data have separate retention settings or provider rules.</li>
+    <li><strong>Support messages:</strong> if you contact us, we receive your email address, message, and any attachments you provide. We use them to respond and retain correspondence as needed to resolve and document the request or meet legal obligations.</li>
+  </ul>
+  <p>You can contact us to request access, correction, or deletion of information we hold about you. Depending on your location, additional privacy rights may apply. We may need enough information to identify the relevant records and may retain information required for legitimate security, billing, or legal purposes. We cannot delete copies held independently by other apps, recipients, or Google under its own account services.</p>
+  <p>Deleting app data or requesting deletion of a backend record does not cancel a Google Play subscription. Manage or cancel subscriptions through Google Play.</p>
+
+  <h2>Your choices</h2>
+  <p>You choose what to scan, import, export, share, print, or listen to. You can delete local items, manage device permissions and available advertising-ID controls, and use Google's privacy controls for data processed by Google. The current app does not provide a separate in-app analytics opt-out setting. For privacy requests concerning information we hold, use the contact details below.</p>
 
   <h2>Children's privacy</h2>
-  <p>PaperBeam is a general productivity app and is not directed to children. We do not knowingly collect personal information from children.</p>
+  <p>Easy Scan is a general productivity app and is not directed to children under 13 or the applicable minimum age in their jurisdiction. We do not knowingly collect personal information from children. If you believe a child has provided information to us, please contact us so we can review and address the situation.</p>
 
   <h2>Security</h2>
-  <p>Because files stay on your device by default, device security matters. Use your device lock, operating system updates, and backups carefully. No method of electronic storage is completely secure.</p>
+  <p>We use encrypted network connections for backend communications and restrict direct client access to stored purchase records. The local subscription-access cache uses Android Keystore-backed encryption. These measures do not mean that every document or exported file is separately encrypted by Easy Scan.</p>
+  <p>Your device lock, operating-system security, destination-app permissions, and handling of exported files also matter. No method of transmission or electronic storage is completely secure.</p>
 
   <h2>Changes to this policy</h2>
-  <p>We may update this Privacy Policy as PaperBeam changes. The updated version will be included in the app and may also be published on a website for store review and user access.</p>
+  <p>We may update this Privacy Policy when Easy Scan's features or data practices change. The current version is published on this page, and the last-updated date identifies the latest revision.</p>
 
   <h2>Contact</h2>
-  <p>If you have questions about this Privacy Policy, contact the developer through the support channel listed on PaperBeam's app store page or website.</p>
+  <p>For privacy questions or requests, contact Pegasus Studio at <a href="mailto:pegasusstudio365@gmail.com">pegasusstudio365@gmail.com</a> or visit <a href="https://pegasusstudio.net/">pegasusstudio.net</a>. Please mention Easy Scan. Do not send payment-card details, purchase tokens, or sensitive document contents in a routine support message.</p>
 </body>
 </html>
