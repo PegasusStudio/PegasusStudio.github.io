@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5945cc">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="How MovoCut handles media, AI requests, local models, permissions, and saved information.">
+  <title>MovoCut Privacy Policy</title>
+  <!-- Publisher review before publication: confirm legal identity, contact channel,
+       intended audience, distribution requirements, and actual release behavior. -->
+  <style>
+    :root {
+      color-scheme: light dark;
+      --page: #f5f3fb; --surface: #fffdfd; --text: #292633; --muted: #686174;
+      --accent: #5945cc; --heading: #362879; --border: #e3ddee; --tint: #eee9ff;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--page); color: var(--text); font-family: Arial, sans-serif; line-height: 1.65; }
+    main { width: min(calc(100% - 28px), 800px); margin: 24px auto; padding: 34px 34px 44px; background: var(--surface); border: 1px solid var(--border); border-radius: 24px; box-shadow: 0 14px 40px rgba(51,35,94,.08); }
+    .brand { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 22px; color: var(--accent); font-weight: 700; }
+    .mark { display: grid; width: 40px; height: 40px; flex-shrink: 0; place-items: center; border-radius: 13px; background: var(--tint); font-size: 22px; }
+    h1 { margin: 0 0 8px; font-size: clamp(30px, 6vw, 42px); line-height: 1.12; letter-spacing: -.02em; }
+    h2 { margin: 32px 0 10px; color: var(--heading); font-size: 21px; line-height: 1.3; }
+    p, li { margin: 0 0 12px; font-size: 16px; }
+    ul { margin: 0 0 16px 22px; padding: 0; }
+    a { color: var(--accent); text-decoration-thickness: 1.5px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+    .updated { margin-bottom: 24px; color: var(--muted); }
+    .notice { margin: 22px 0; padding: 16px 18px; background: var(--tint); border-left: 4px solid var(--accent); border-radius: 12px; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+    nav a { padding: 7px 13px; border-radius: 20px; background: var(--tint); font-size: 14px; font-weight: 700; text-decoration: none; }
+    footer { margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); }
+    @media (prefers-color-scheme: dark) {
+      :root { --page: #100e18; --surface: #1c1927; --text: #eee9f5; --muted: #b9b0c8; --accent: #c6b7ff; --heading: #d9ceff; --border: #393145; --tint: #2b2341; }
+    }
+    @media (max-width: 520px) {
+      main { width: 100%; margin: 0; padding: 26px 20px 38px; border: 0; border-radius: 0; box-shadow: none; }
+      h2 { margin-top: 27px; }
+    }
+    @media print {
+      :root { --page: white; --surface: white; --text: black; --muted: #333; --accent: black; --heading: black; --border: #ccc; --tint: #f5f5f5; }
+      main { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
+      nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand"><span class="mark" aria-hidden="true">🎬</span>MovoCut · Pegasus Studio</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated October 20, 2026</p>
+    <nav aria-label="Legal documents">
+      <a href="privacy_policy.html" aria-current="page">Privacy Policy</a>
+      <a href="terms_and_conditions.html">Terms &amp; Conditions</a>
+    </nav>
+
+    <p>Pegasus Studio provides MovoCut, an Android app for editing and converting video and audio, with optional AI-assisted editing. This policy explains what information the app uses, what stays on your device, and when information may be sent to another service.</p>
+    <div class="notice"><strong>In short:</strong> ordinary editing, conversion, preview, and export run on your device. MovoCut does not require a MovoCut account. Cloud AI is optional and sends your instructions and included project context to the provider you choose. Downloaded local AI models run on your device, but downloads and your phone’s speech-recognition service can involve external services.</div>
+
+    <h2 id="media">Media and Information You Provide</h2>
+    <p>You may select videos, audio, images, subtitles, or model files; create text, drawings, shapes, and animation masks; save presets; and enter instructions or provider settings. The app uses this information to carry out the actions you request.</p>
+    <p>Media processing is local. The app may create working copies, preview proxies, thumbnails, waveforms, temporary renders, and exported files. Ordinary editing and conversion do not upload your source media to Pegasus Studio. Sharing a file or using cloud AI is a separate action with different data handling.</p>
+    <p>Media and its metadata can contain personal information, such as faces, voices, names, timestamps, or location information recorded by another app. Do not assume that editing or converting a file removes all identifying metadata.</p>
+
+    <h2 id="cloud-ai">Optional Cloud AI and Custom API Requests</h2>
+    <p>When you send an AI request, the app contacts the selected provider or custom endpoint directly using your configuration. Depending on the selected options and provider capabilities, the request can include:</p>
+    <ul>
+      <li>Your instruction, clarification answers, and recent conversation context.</li>
+      <li>Project and timeline details, including clip or lane labels, durations, selections, text layers, edit settings, effects, animation masks, and saved-mask descriptions.</li>
+      <li>Up to 12 preview-frame samples when frame sharing is enabled and supported.</li>
+      <li>Local audio measurements, such as approximate peak levels and quiet ranges, when audio context is included. These summaries are not an audio transcript.</li>
+    </ul>
+    <p>Review the context controls before sending. Cloud requests are not anonymous: the endpoint receives normal network information, such as IP address, and any credentials required by that service. Retention, use, security, international processing, and deletion depend on the provider’s own terms, API agreement, and your account settings. We do not promise that a provider never stores requests or uses them for model improvement.</p>
+    <p>Standard edit-plan requests do not automatically upload entire source video or audio files. Do not treat that as a promise about every custom request: Custom API sends the headers, parameters, body, and supported context placeholders you configure, including content entered into templates. Review the destination and request carefully. Do not disclose another person’s information without an appropriate right or permission.</p>
+    <p>Testing a provider connection or custom request also contacts the configured endpoint. Revisions, retries, and plan-repair requests can make additional provider calls. These calls may incur provider charges.</p>
+
+    <h2 id="local-ai">Local AI Models and Downloads</h2>
+    <p>With Local AI, edit-plan inference uses a model stored on your device rather than sending the plan request to a cloud AI provider. This does not make every feature offline: downloading or resuming models, opening links, and using some speech services require a network connection.</p>
+    <p>The model catalog and downloads contact external repositories, currently including Hugging Face and its download infrastructure. Those services receive normal request information, such as your IP address and the requested file, under their own policies. Model authors and licenses are independent of Pegasus Studio.</p>
+    <p>Downloaded or imported models, backend preferences, and partial downloads may remain locally until you delete them, clear app storage, or uninstall. Copies you export to folders outside the app are managed separately.</p>
+
+    <h2 id="dictation">Microphone and Speech Recognition</h2>
+    <p>The microphone is used when you start dictation in AI Editor. The app relies on your device’s speech-recognition service. Depending on the installed recognizer and device settings, speech may be processed locally or sent to that service’s servers. MovoCut does not guarantee offline dictation, even with Local AI selected.</p>
+    <p>Recognized text is placed in the prompt field for you to review and edit. Dictation does not automatically submit an AI request. If you send the text, the selected provider handles it as an AI instruction. Typing is available without microphone permission.</p>
+
+    <h2 id="permissions">Permissions and Device Features</h2>
+    <ul>
+      <li><strong>Selected media and files:</strong> used to open sources, import assets or models, and save, copy, move, or share results. Older Android versions may also request storage permissions to read or write shared media.</li>
+      <li><strong>Microphone:</strong> used for optional speech-to-text dictation.</li>
+      <li><strong>Notifications:</strong> used for processing and model-download status, progress, completion, and available controls.</li>
+      <li><strong>Foreground processing and wake locks:</strong> used to support user-started work while backgrounded. Android or the device manufacturer can still interrupt it.</li>
+      <li><strong>Internet and network status:</strong> used for cloud AI, provider tests, model downloads, and connection checks.</li>
+      <li><strong>Device authentication:</strong> used for API request protection through Android’s biometric or device-credential prompt. MovoCut receives an authentication result, not your fingerprint template or device PIN.</li>
+    </ul>
+    <p>Manage runtime permissions in Android settings. Denying an optional permission may limit its related feature. MovoCut does not request location, contacts, or camera access for its current editing features.</p>
+
+    <h2 id="storage">Local Storage and Retention</h2>
+    <p>The app can store preferences, conversion presets, saved masks, provider profiles, generated-media records, job status, project-recovery snapshots, editing assets, models, and caches on your device. Recovery snapshots may contain timeline settings, text or drawing content, and source-file references; they are not guaranteed backups of original media.</p>
+    <p>AI conversation is held for the current AI Editor screen session, not maintained as a persistent chat archive by MovoCut. Closing that screen does not erase applied edits, saved masks, recovery information, exports, or copies retained by an external provider. Temporary files may remain until cache cleanup or Android removes them.</p>
+    <p>Exported media is saved to shared storage or your chosen destination. Other apps or device services with appropriate access may read, back up, or synchronize those files independently. Uninstalling MovoCut does not necessarily remove shared outputs or models copied elsewhere.</p>
+
+    <h2 id="security">API Keys and Request Protection</h2>
+    <p>API keys and saved custom-header templates use the app’s encrypted secure-storage mechanism on Android. Other provider preferences, including endpoints, models, query settings, and request-body templates, are ordinary local settings. <strong>Use the dedicated API-key or protected header fields for secrets; do not put secrets into URLs, query parameters, or body templates and assume they receive the same storage protection.</strong></p>
+    <p>API request protection can require device authentication before a request, with the interval and failed-authentication threshold selected in Settings. Reaching that threshold can delete a saved provider key. This is not an absolute security guarantee and does not revoke the key at the provider or reverse earlier charges.</p>
+    <p>Credentials needed for a request are sent to the configured service. Only use endpoints you trust. Lost, stolen, rooted, compromised, or unlocked devices can expose information. If a key may be compromised, revoke or rotate it with the provider as well as removing it from MovoCut.</p>
+    <p>The Android app is configured to disable standard app backup. Device migration tools, exported files, operating-system behavior, and copies outside the app may be governed separately. No storage or transmission method is completely secure.</p>
+
+    <h2 id="third-parties">Third Parties, Diagnostics, and External Links</h2>
+    <p>MovoCut uses third-party libraries and Android services for media processing, rendering, file access, speech recognition, secure storage, authentication, notifications, and local AI. The current app does not include advertising or dedicated developer analytics or crash-reporting services.</p>
+    <p>Local diagnostic output may contain technical errors, codec information, file names or paths, and job details. Your operating system, app store, device manufacturer, speech service, AI provider, or model host may independently process technical information under its own policies. If you choose to send support logs or screenshots, redact private media, credentials, and other sensitive information first.</p>
+    <p>Provider API agreements may differ from their consumer-app policies. Review the terms applicable to your account and endpoint. Useful starting points include:</p>
+    <ul>
+      <li><a href="https://openai.com/policies/privacy-policy/">OpenAI Privacy Policy</a></li>
+      <li><a href="https://privacy.anthropic.com/">Anthropic Privacy Center</a></li>
+      <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+      <li><a href="https://huggingface.co/privacy">Hugging Face Privacy Policy</a></li>
+      <li>The policy of any other provider, proxy, or Custom API destination you choose.</li>
+    </ul>
+    <p>External links and sharing may open another app or website. Its operator controls its own practices. The app does not use browser cookies; websites serving these pages or linked from them may have separate cookies and server logs.</p>
+
+    <h2 id="choices">Your Choices and Deletion</h2>
+    <ul>
+      <li>Use ordinary editing and conversion without configuring cloud AI.</li>
+      <li>Review context controls, type instead of dictating, or use a downloaded local model.</li>
+      <li>Delete saved API keys or models through the relevant settings; manage media through Output or your file manager.</li>
+      <li>Clear app storage or uninstall to remove app-private information, subject to Android’s behavior. Back up important information first.</li>
+      <li>For data already sent externally, use that service’s account controls or contact it directly. Local deletion does not request deletion from a provider.</li>
+    </ul>
+    <p>If you contact Pegasus Studio, we handle the information you choose to send to respond to your enquiry. Contact us for applicable access, correction, or deletion requests concerning information supplied directly to us. We cannot recover app-private files we do not possess or control another provider’s records.</p>
+
+    <h2 id="children">Children and Younger Users</h2>
+    <p>MovoCut is a general-purpose media tool, not a service for soliciting children’s personal information. Younger users must follow applicable age and parental-consent requirements, including those of AI or speech services they use. Do not send a child’s personal information externally without appropriate permission and a lawful basis. A parent or guardian with a privacy concern can contact us below.</p>
+
+    <h2 id="changes">Changes to This Policy</h2>
+    <p>We may revise this policy as features, practices, or applicable requirements change. The updated version will show a revised date. Where required, we will provide additional notice or request consent before a material change takes effect.</p>
+
+    <h2 id="contact">Contact Us</h2>
+    <p>For privacy questions, contact Pegasus Studio through the developer support contact listed on <a href="https://play.google.com/store/apps/details?id=com.pegasusstudio.movocut">MovoCut’s app store page</a> or the official Pegasus Studio website. Please do not send API keys or private source media unless specifically needed and you choose to provide them.</p>
+    <footer><a href="terms_and_conditions.html">Read the Terms and Conditions</a></footer>
+  </main>
+</body>
+</html>
