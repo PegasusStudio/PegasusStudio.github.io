@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="How Local LLM by Pegasus Studio handles chats, files, model downloads, permissions, and feedback.">
+  <title>Local LLM Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --canvas: #f5f6fc;
+      --paper: #fff;
+      --ink: #14172b;
+      --muted: #505970;
+      --accent: #4940a2;
+      --line: #dedff0;
+      --tint: #f0efff;
+      --mark: #5d63e6;
+      --mark-ink: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --canvas: #0e0f1a;
+        --paper: #191b2c;
+        --ink: #f2f1ff;
+        --muted: #b9bdd3;
+        --accent: #c7bfff;
+        --line: #373951;
+        --tint: #252542;
+        --mark: #8e8cf6;
+        --mark-ink: #171b4d;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--canvas);
+      color: var(--ink);
+      font: 1rem/1.65 system-ui, -apple-system, sans-serif;
+    }
+    main {
+      width: min(calc(100% - 28px), 780px);
+      margin: 24px auto;
+      padding: 34px 34px 40px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: 0 14px 40px rgb(27 25 63 / 8%);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 22px;
+      color: var(--accent);
+      font-weight: 750;
+    }
+    .mark {
+      display: grid;
+      width: 40px;
+      height: 40px;
+      place-items: center;
+      border-radius: 13px;
+      background: var(--mark);
+      color: var(--mark-ink);
+      font-weight: 800;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.875rem, 6vw, 2.625rem);
+      line-height: 1.15;
+      letter-spacing: -.025em;
+    }
+    h2 {
+      margin: 30px 0 8px;
+      color: var(--accent);
+      font-size: 1.25rem;
+      line-height: 1.35;
+    }
+    p, li { margin: 0 0 10px; }
+    ul { margin: 0 0 16px; padding-inline-start: 1.4em; }
+    a {
+      color: var(--accent);
+      text-underline-offset: .18em;
+      overflow-wrap: anywhere;
+    }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .updated { margin-bottom: 22px; color: var(--muted); }
+    .notice {
+      margin: 22px 0 6px;
+      padding: 16px 18px;
+      background: var(--tint);
+      border-inline-start: 4px solid var(--accent);
+      border-radius: 12px;
+    }
+    footer { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--line); }
+    @media (max-width: 520px) {
+      main { width: 100%; margin: 0; padding: 26px 20px 34px; border: 0; border-radius: 0; box-shadow: none; }
+      h2 { margin-top: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand"><span class="mark" aria-hidden="true">LL</span>Local LLM</div>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated <time datetime="2026-11-17">November 17, 2026</time></p>
+    </header>
+
+    <p>Pegasus Studio provides Local LLM, an Android and iOS app for running compatible AI models on your device. This policy explains how the app and our support channel handle your information.</p>
+
+    <p class="notice"><strong>Your chats run on your device.</strong> Local LLM processes prompts, supported attachments, and responses locally. It connects to Hugging Face for model files and catalog information. When you choose to send feedback or a report, the information you send goes through your mail app.</p>
+
+    <h2>1. Chat, attachments, and on-device processing</h2>
+    <p>Chat, writing tools, and the tensor runner use models on your device. The app reads the files you select for the task you request. For supported text files and readable PDFs, it uses a text excerpt. For models that support images, it can use an image you select. Chat prompts, attachments, and generated responses are not sent to Pegasus Studio or Hugging Face for inference.</p>
+    <p><strong>Keep chat history</strong> is enabled by default. Saved conversations may contain your messages, model responses, local ratings, attachment names, document excerpts, and the model used. Image files themselves are not stored in the saved conversation.</p>
+
+    <h2>2. Device permissions</h2>
+    <ul>
+      <li><strong>Microphone and speech recognition.</strong> When you choose dictation, Local LLM requests the relevant device permissions and asks the operating system for on-device recognition. Availability depends on your device and installed speech support. Local LLM does not keep audio recordings. Dictated text becomes part of your draft and can be saved like typed text if you send it with chat history enabled.</li>
+      <li><strong>Files and photos.</strong> Your system picker lets you choose files to attach or models to import. The app accesses the items you select. You can change microphone and speech-recognition permissions in your device settings.</li>
+    </ul>
+
+    <h2>3. Model catalog, downloads, and access tokens</h2>
+    <p>Local LLM makes HTTPS requests to Hugging Face when it loads or refreshes the catalog, lists model files, or downloads a model. Hugging Face and its download infrastructure can receive connection information such as your IP address and the repository or file requested. The app filters the catalog on your device when you type in model search.</p>
+    <p>Local LLM requires no app account. If you enter a Hugging Face access token in Settings, the app holds it in memory for the current app session and sends it with Hugging Face requests to authenticate your access. You can clear it in Settings. If you request gated access on the Hugging Face website, that process can share your account details and any information you submit with the model publisher, as described in the access request.</p>
+    <p>See the <a href="https://huggingface.co/privacy">Hugging Face Privacy Policy</a> and <a href="https://huggingface.co/docs/hub/models-gated">Hugging Face guidance on gated models</a>.</p>
+
+    <h2>4. Feedback, reports, and sharing</h2>
+    <p>Settings feedback opens a draft in your mail app. A response report can include your notes, the model identifier when available, and the selected response if you choose to include it. You can review the draft and decide whether to send it.</p>
+    <p>When you email us, Pegasus Studio receives your email address and the contents you send. We use that information to answer questions, troubleshoot problems, and review reports. Your email provider also handles the message. If you share content through your device, save a copy outside the app, or open an external link, the destination can handle the information under its own policies.</p>
+
+    <h2>5. Storage, retention, and deletion</h2>
+    <ul>
+      <li><strong>Chats.</strong> Turn off <strong>Keep chat history</strong> in Settings to stop saving new conversations. To remove existing saved conversations, delete them individually from <strong>View chat history</strong> or use <strong>Delete all history</strong> in Settings.</li>
+      <li><strong>Models and preferences.</strong> The app keeps downloaded and imported models, download progress, favorites, recent model use, and preferences in its local storage. You can remove installed models from <strong>Models › Downloaded</strong>. Clearing app storage or uninstalling removes app-managed local data, subject to your device’s storage and backup behavior. Manage exported copies separately wherever you saved them.</li>
+      <li><strong>Support email.</strong> We keep correspondence as long as reasonably needed to handle your request, maintain related support records, or meet legal obligations. You can email us to request access or deletion. Requests concerning a model host or a sharing destination should be directed to that service.</li>
+    </ul>
+
+    <h2>6. Security and service providers</h2>
+    <p>Local LLM uses app-private storage for its data and HTTPS for Hugging Face requests. Protect access to your device and keep access tokens private. The app has no Pegasus Studio cloud chat or sync service and does not include advertising or analytics features. Your operating system, app store, and external services may handle information independently under their own policies.</p>
+
+    <h2>7. Children’s privacy</h2>
+    <p>Local LLM is intended for a general audience and is not directed to children under 13. If you are a parent or guardian and believe a child has sent personal information to Pegasus Studio, contact us so we can review and address it.</p>
+
+    <h2>8. Changes and contact</h2>
+    <p>We may update this policy when the app or our practices change. We will post the revised policy here and update the date above. For privacy questions or requests, email Pegasus Studio at <a href="mailto:pegasusstudio365@gmail.com">pegasusstudio365@gmail.com</a>.</p>
+
+    <footer><a href="terms_of_service.html">Local LLM Terms and Conditions</a></footer>
+  </main>
+</body>
+</html>
