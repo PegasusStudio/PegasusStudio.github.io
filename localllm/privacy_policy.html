@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="How Local LLM by Pegasus Studio handles chats, files, model downloads, permissions, and feedback.">
+  <meta name="description" content="How Local LLM by Pegasus Studio handles on-device AI, files, camera scans, model downloads, diagnostics, and feedback.">
   <title>Local LLM Privacy Policy</title>
   <style>
     :root {
@@ -107,46 +107,54 @@
     <header>
       <div class="brand"><span class="mark" aria-hidden="true">LL</span>Local LLM</div>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated <time datetime="2026-11-17">November 17, 2026</time></p>
+      <p class="updated">Last updated <time datetime="2026-11-21">November 21, 2026</time></p>
     </header>
 
     <p>Pegasus Studio provides Local LLM, an Android and iOS app for running compatible AI models on your device. This policy explains how the app and our support channel handle your information.</p>
 
-    <p class="notice"><strong>Your chats run on your device.</strong> Local LLM processes prompts, supported attachments, and responses locally. It connects to Hugging Face for model files and catalog information. When you choose to send feedback or a report, the information you send goes through your mail app.</p>
+    <p class="notice"><strong>Your AI tasks run on your device.</strong> Chat, Writing Tools, Image Studio, and the tensor runner process inputs locally. The app connects to Hugging Face for models. The text scanning SDK can send technical data to Google, as explained below.</p>
 
-    <h2>1. Chat, attachments, and on-device processing</h2>
-    <p>Chat, writing tools, and the tensor runner use models on your device. The app reads the files you select for the task you request. For supported text files and readable PDFs, it uses a text excerpt. For models that support images, it can use an image you select. Chat prompts, attachments, and generated responses are not sent to Pegasus Studio or Hugging Face for inference.</p>
-    <p><strong>Keep chat history</strong> is enabled by default. Saved conversations may contain your messages, model responses, local ratings, attachment names, document excerpts, and the model used. Image files themselves are not stored in the saved conversation.</p>
-
-    <h2>2. Device permissions</h2>
+    <h2>1. Prompts, attachments, and results</h2>
     <ul>
-      <li><strong>Microphone and speech recognition.</strong> When you choose dictation, Local LLM requests the relevant device permissions and asks the operating system for on-device recognition. Availability depends on your device and installed speech support. Local LLM does not keep audio recordings. Dictated text becomes part of your draft and can be saved like typed text if you send it with chat history enabled.</li>
-      <li><strong>Files and photos.</strong> Your system picker lets you choose files to attach or models to import. The app accesses the items you select. You can change microphone and speech-recognition permissions in your device settings.</li>
+      <li><strong>Chat.</strong> The selected model uses the text you submit and may use previous messages as context. Chat can extract excerpts from supported documents. Compatible models can also process images or short audio files you choose.</li>
+      <li><strong>Writing Tools.</strong> The app processes the text you type, paste, extract from a PDF, or scan from an image. You can copy results or export them as PDFs.</li>
+      <li><strong>Image Studio and tensor runner.</strong> Image Studio generates pictures from your prompts. The tensor runner processes inputs such as numbers, arrays, or compatible audio. Both features run on your device.</li>
+    </ul>
+    <p><strong>Keep chat history</strong> is enabled by default. Saved chats can contain your messages, model responses, local ratings, document excerpts, attachment names, and the model used. Saved history records information about image and audio attachments. The actual media files are used during the session.</p>
+
+    <h2>2. Microphone, camera, and files</h2>
+    <ul>
+      <li><strong>Microphone and speech recognition.</strong> If you choose dictation, the app requests the required permission and asks your device’s speech service to recognize speech on-device. Dictation depends on supported offline recognition. The app receives the transcript for your draft and can save it as text if you send it with chat history enabled.</li>
+      <li><strong>Camera, photos, and files.</strong> The camera is used when you choose to photograph a page for text scanning. You can also use your device’s picker to select photos, supported attachments, PDFs, or model files. The app accesses the items you select. You can manage permissions in your device settings.</li>
     </ul>
 
-    <h2>3. Model catalog, downloads, and access tokens</h2>
-    <p>Local LLM makes HTTPS requests to Hugging Face when it loads or refreshes the catalog, lists model files, or downloads a model. Hugging Face and its download infrastructure can receive connection information such as your IP address and the repository or file requested. The app filters the catalog on your device when you type in model search.</p>
-    <p>Local LLM requires no app account. If you enter a Hugging Face access token in Settings, the app holds it in memory for the current app session and sends it with Hugging Face requests to authenticate your access. You can clear it in Settings. If you request gated access on the Hugging Face website, that process can share your account details and any information you submit with the model publisher, as described in the access request.</p>
+    <h2>3. Text scanning and Google ML Kit</h2>
+    <p>Writing Tools uses Google ML Kit Text Recognition to read text from images on your device. Google says the SDK keeps the images and recognized text on the device. The SDK can send Google information about the device and app, a per-installation identifier, and technical details about scans, such as image format or resolution, processing times, and errors. Google uses these metrics to measure and improve the SDK and diagnose problems. ML Kit can also contact Google for updates and compatibility information.</p>
+    <p>For details, see <a href="https://developers.google.com/ml-kit/terms">Google ML Kit Terms and Privacy</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+    <h2>4. Model catalog, downloads, and access tokens</h2>
+    <p>Local LLM makes HTTPS requests to Hugging Face to load or refresh the catalog, list model files, and download or resume model files and Image Studio bundles. Hugging Face and its download infrastructure can receive connection information such as your IP address and the repository or file requested. The app filters the catalog on your device when you type in model search.</p>
+    <p>You can use Local LLM without creating a Pegasus Studio account. If you enter a Hugging Face access token in Settings, the app holds it in memory for the current app session and sends it with Hugging Face requests to authenticate your access. You can clear it in Settings. If you request gated access on the Hugging Face website, that process can share your account details and any information you submit with the model publisher, as described in the access request.</p>
     <p>See the <a href="https://huggingface.co/privacy">Hugging Face Privacy Policy</a> and <a href="https://huggingface.co/docs/hub/models-gated">Hugging Face guidance on gated models</a>.</p>
 
-    <h2>4. Feedback, reports, and sharing</h2>
+    <h2>5. Feedback, reports, and sharing</h2>
     <p>Settings feedback opens a draft in your mail app. A response report can include your notes, the model identifier when available, and the selected response if you choose to include it. You can review the draft and decide whether to send it.</p>
-    <p>When you email us, Pegasus Studio receives your email address and the contents you send. We use that information to answer questions, troubleshoot problems, and review reports. Your email provider also handles the message. If you share content through your device, save a copy outside the app, or open an external link, the destination can handle the information under its own policies.</p>
+    <p>When you email us, Pegasus Studio receives your email address and the contents you send. We use that information to answer questions, troubleshoot problems, and review reports. Your email provider also handles the message. Copying text places it on your device’s clipboard. When you share or export a chat reply, writing result, generated image, or model file, the recipient app or storage provider can handle it under its own policies.</p>
 
-    <h2>5. Storage, retention, and deletion</h2>
+    <h2>6. Storage, retention, and deletion</h2>
     <ul>
       <li><strong>Chats.</strong> Turn off <strong>Keep chat history</strong> in Settings to stop saving new conversations. To remove existing saved conversations, delete them individually from <strong>View chat history</strong> or use <strong>Delete all history</strong> in Settings.</li>
-      <li><strong>Models and preferences.</strong> The app keeps downloaded and imported models, download progress, favorites, recent model use, and preferences in its local storage. You can remove installed models from <strong>Models › Downloaded</strong>. Clearing app storage or uninstalling removes app-managed local data, subject to your device’s storage and backup behavior. Manage exported copies separately wherever you saved them.</li>
+      <li><strong>Models, settings, and working files.</strong> The app keeps downloaded and imported models, download progress, favorites, recent model use, and preferences on your device. Selected or captured files may be copied to local temporary storage while the app processes them. You can remove installed models from <strong>Models › Downloaded</strong>. Clearing app storage or uninstalling removes app-managed data, subject to your device’s storage and backup behavior. Manage exports and original files separately wherever you saved them.</li>
       <li><strong>Support email.</strong> We keep correspondence as long as reasonably needed to handle your request, maintain related support records, or meet legal obligations. You can email us to request access or deletion. Requests concerning a model host or a sharing destination should be directed to that service.</li>
     </ul>
 
-    <h2>6. Security and service providers</h2>
-    <p>Local LLM uses app-private storage for its data and HTTPS for Hugging Face requests. Protect access to your device and keep access tokens private. The app has no Pegasus Studio cloud chat or sync service and does not include advertising or analytics features. Your operating system, app store, and external services may handle information independently under their own policies.</p>
+    <h2>7. Security and external services</h2>
+    <p>Local LLM uses app-private storage for its saved data and HTTPS for Hugging Face requests. Protect access to your device and keep access tokens private. Your operating system, app store, and any services you open through external links can handle information under their own policies.</p>
 
-    <h2>7. Children’s privacy</h2>
+    <h2>8. Children’s privacy</h2>
     <p>Local LLM is intended for a general audience and is not directed to children under 13. If you are a parent or guardian and believe a child has sent personal information to Pegasus Studio, contact us so we can review and address it.</p>
 
-    <h2>8. Changes and contact</h2>
+    <h2>9. Changes and contact</h2>
     <p>We may update this policy when the app or our practices change. We will post the revised policy here and update the date above. For privacy questions or requests, email Pegasus Studio at <a href="mailto:pegasusstudio365@gmail.com">pegasusstudio365@gmail.com</a>.</p>
 
     <footer><a href="terms_of_service.html">Local LLM Terms and Conditions</a></footer>
