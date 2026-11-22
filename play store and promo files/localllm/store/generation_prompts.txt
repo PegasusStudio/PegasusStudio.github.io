@@ -1,0 +1,194 @@
+LOCAL LLM — REVISED GOOGLE PLAY PROMOTIONAL SET
+
+AI image generation revision: expanded feature-themed graphics, dimensional lavender/violet/mint accents, and selected multi-phone layouts. Existing app icon, screenshots, and marketing copy were used as references.
+
+======================================================================
+IMAGE 01
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Offline AI chat
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Your AI.
+On your device.'
+Supporting line: 'Download a model. Chat offline.'
+
+TWO-PHONE HERO. Rebuild the lower visual area as two beautiful straight Android phones: the actual home screen on the larger foreground phone to the right, the actual hiking-checklist chat on a second phone slightly behind to the left. The screens must be different and sourced from the references. Surround this group with 4 purposeful dimensional accents: a fairly large lavender chat bubble, a smaller mint reply bubble, a detailed but clean lavender microprocessor tile with a mint center, and a thin dotted orbit linking them to the phone. Add one subtle floating rounded conversational card with three abstract text lines. Give the accents real presence, around 12–20% of canvas width, not tiny specks. Preserve clean hierarchy and generous margins. No cloud graphics.
+
+Clearly richer graphics and a distinct new composition are essential. Center the overall composition, balance objects around the phones, and maintain the visual quality of a premium app launch campaign. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 02
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Coding assistance
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Ideas into
+code.'
+Supporting line: 'Get help with code, right on your device.'
+
+ONE-PHONE CODING SCENE. Keep one large upright Android phone displaying the actual supplied Python chat. Around it add a prominent floating glass code-editor card on the left foreground, a sculptural violet </> bracket symbol at upper right, a mint cursor arrow, and two small rounded syntax-token tiles. The floating code card contains exactly: 'def is_palindrome(s):' then '    return s == s[::-1]' then a blank line and 'assert is_palindrome("racecar")'. Keep this correct and clearly typeset with syntax colors. The card sits mostly outside the screen with only a little overlap of the phone's outer edge. Use dimensional glass and satin lavender materials, vivid but refined. Do not obscure the app's own code response.
+
+Clearly richer graphics and a distinct new composition are essential. Center the overall composition, balance objects around the phones, and maintain the visual quality of a premium app launch campaign. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 03
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Math assistance
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Make sense
+of math.'
+Supporting line: 'Work through problems, step by step.'
+
+ONE-PHONE MATH SCENE. A large straight Android phone with the supplied math chat remains the main product. Add two legible floating pearl-glass equation cards around the phone, one showing 'x² − 5x + 6 = 0' and the other showing '(x − 2)(x − 3) = 0'. A smaller mint-accented result tile reads 'x = 2, 3'. Include a translucent lavender geometric cube and a small clean violet plus sign, all grouped tastefully around the sides and lower foreground. Cards vary in depth with soft minimal shadows. Keep both the marketing headline and app solution unobscured. These formulas must be correct.
+
+Clearly richer graphics and a distinct new composition are essential. Center the overall composition, balance objects around the phones, and maintain the visual quality of a premium app launch campaign. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 04
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Text summaries
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Less reading.
+More clarity.'
+Supporting line: 'Turn long text into useful key points.'
+
+TWO-PHONE BEFORE-AND-AFTER. Use two distinct upright Android phones in the lower visual area: source Text summarizer screen with the community garden paragraph on the left/rear phone, actual bullet-point Result screen on the right/front phone. Make their relationship obvious with one elegant curved mint arrow between them. Surround them with floating translucent document sheets: long text lines on one side transform into three compact lavender bullet-point strips on the other. Add a small dimensional summarizer mark (two horizontal lines) from the app icon style. Richer illustration and visual storytelling, still clean. Keep the devices physically straight; slight planar rotations only. Both phones entirely in frame.
+
+Clearly richer graphics and a distinct new TWO-PHONE composition are essential for this artwork. Center the overall composition, balance objects around the phones, and keep the phones entirely in frame. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 05
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Image creation
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Imagine it.
+Create it.'
+Supporting line: 'Generate images on your device.'
+
+TWO-PHONE IMAGE-STUDIO SCENE. Foreground phone shows the actual Image Studio result with the mountain lake preview; second phone just behind shows the supplied full-screen Generated image preview. Around them create two large floating photograph cards using crops of that same supplied mountain-lake image (do not replace it with unrelated AI art), a beautiful dimensional lavender painter's palette, and two tasteful small four-point mint/violet sparkle accents. Use the warm gold lake and mountain image as a rich contrasting accent within the pearl-lavender campaign. Arrange the photo cards diagonally around the group and avoid covering screens. Add a compact prompt pill reading only 'A mountain lake at sunrise' if space permits. Both phones remain fully visible and straight.
+
+Clearly richer graphics and a distinct new TWO-PHONE composition are essential for this artwork. Center the overall composition, balance objects around the phones, and keep the phones entirely in frame. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 06
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Model discovery
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Find your
+kind of AI.'
+Supporting line: 'Explore models for the way you work.'
+
+TWO-PHONE MODEL LIBRARY. Two distinct supplied screens: the category-browser screen on the larger foreground Android phone, and the actual repositories/model-list screen on the smaller rear phone. Arrange them side-by-side with slight overlap, full devices visible. Surround the group with dimensional rounded category tiles labeled exactly 'Coding', 'Writing', and 'Reasoning', each with a simple matching icon. Include a layered violet model-stack symbol and one small mint magnifier tile. Make the model choices visually tangible using floating glass/satin cards with depth. Keep secondary cards to the sides and below the headline, never over important screenshot content.
+
+Clearly richer graphics and a distinct new TWO-PHONE composition are essential for this artwork. Center the overall composition, balance objects around the phones, and keep the phones entirely in frame. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 07
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Model imports
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Your models.
+Your choice.'
+Supporting line: 'Import compatible models from your storage.'
+
+ONE-PHONE IMPORT SCENE. One large Android phone displays the actual Downloaded models screen. Add a substantial 3D lavender file folder at the lower left with three beautifully separated model-file cards emerging from it. The exact labels on the file cards are 'GGUF', 'LiteRT-LM', and 'ONNX'. A curved mint import arrow leads from the local folder toward the phone. A small stacked-model tile floats on the other side. Use premium frosted glass, pearlescent violet, and gentle shadows. This should feel like importing files from storage on the device; never use a cloud or remote-server illustration. Do not imply all models work.
+
+The extra feature graphics must be rich, substantial and beautifully arranged around the device. One phone is appropriate for this image. Preserve the logo and text and keep the phone entirely in frame. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 08
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: PDF export
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'From words
+to PDF.'
+Supporting line: 'Save your writing in a shareable format.'
+
+ONE-PHONE PDF EXPORT SCENE. Keep the actual summary-result phone with the Save as PDF action clearly visible. Surround the phone with a large elegant floating violet-tinted PDF document at lower right, two layered pearl document pages to the left with neat lines and bullet points, a compact export-arrow tile, and a mint curved connector leading from the Save as PDF area to the floating PDF. The main document is labeled only 'PDF', with attractive line icons and mock text lines rather than fabricated tiny words. Give these graphics substantial presence without covering the summary body. Preserve one main feature: exporting writing as PDF.
+
+The extra feature graphics must be rich, substantial and beautifully arranged around the device. One phone is appropriate for this image. Preserve the logo and text and keep the phone entirely in frame. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 09
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Chat history controls
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Your chats.
+Your control.'
+Supporting line: 'Keep history on your device, or turn it off.'
+
+ONE-PHONE CHAT CONTROLS SCENE. Large straight phone showing the actual Settings screen and Keep chat history toggle. Surround it with 4 rich but restrained dimensional graphics: two layered lavender conversational bubbles with abstract text lines, a rounded history-clock tile, a large elegant mint/violet toggle-control illustration, and a small bookmark/archive tile. A soft curving path visually links the chat bubbles to the history control. All motifs communicate local history and choice. No shield, padlock, encryption badge or absolute security claim. Leave the actual settings content readable and the typography area clean.
+
+The extra feature graphics must be rich, substantial and beautifully arranged around the device. One phone is appropriate for this image. Preserve the logo and text and keep the phone entirely in frame. Final output aspect ratio 9:16.
+
+======================================================================
+IMAGE 10
+
+Create a finished PORTRAIT 9:16 promotional image, exactly 1080 x 1920 pixels. Keep this wider portrait ratio, never a narrow 1:2 canvas.
+
+Redesign the supplied Local LLM promotional poster with noticeably MORE feature-themed graphics around the phones, preserving its premium lavender/violet/mint identity. Treat image 1 as the previous artwork to revise, image 2 as the exact brand icon, and the remaining images as the actual app screens to reproduce. Preserve the logo's folded lavender chat loop with mint interior and the exact marketing wording. Keep a calm pearl-lavender full-bleed background, deep aubergine text, rich violet accents and fresh mint details. Bold contemporary geometric sans-serif headline, short supporting line, small Local LLM icon-and-name row above. The top text area remains clean. Rebuild the lower two-thirds into a more engaging dimensional product composition, using meaningful illustrated elements around the devices, 3D frosted glass or satin pastel materials, subtle highlights and soft restrained shadows. A simple background ribbon alone is insufficient: the added feature illustrations must be clearly visible and substantial. Phone hardware must be realistic Android: straight parallel sides, plausible proportions, thin titanium/graphite bezels, rounded corners and one subtle centered punch-hole, no Apple notch or logo, no bent phones. Phone screens must faithfully use the supplied UI, no invented app screens. Extra graphics may overlap a bezel slightly but must not obscure the main screen content. All devices and marketing copy remain fully within the canvas with comfortable margins. No people, hands, store badges, pricing, awards, ratings, download counts, or unsupported claims. Harmonious rich visuals with ample breathing room. Produce ONE finished image per request, never a contact sheet.
+
+REVISED FEATURE: Tensor Runner
+Keep marketing copy verbatim:
+Brand: Local LLM
+Headline: 'Explore
+beyond chat.'
+Supporting line: 'Run TFLite models and inspect the results.'
+
+ONE-PHONE TENSOR SCENE. Large actual Tensor Runner screen in a straight Android phone. Around it add a visually appealing cluster of translucent violet tensor cubes with mint faces, a compact floating glass array card showing only '[[0.1, 0.2], [0.3, 0.4]]', two small input/output node tiles joined by a fine mint line, and a rounded play-button chip. These are decorative tensor concepts; avoid any extra speed number or benchmark claim. Make the cubes dimensional and beautifully lit. The example input and output in the app remain readable, no screens covered by the floating accents.
+
+Clearly richer graphics and a distinct dimensional composition are essential. One straight Android phone, complete device in frame. Final aspect ratio 9:16.
+
+======================================================================
+IMAGE 11
+
+Create one revised WIDE LANDSCAPE Google Play feature graphic, exact canvas 1024 x 500 pixels, aspect ratio 2.048:1. This is a banner, never a portrait. The user wants more meaningful graphics around the phones and allows multiple phones.
+REFERENCE ROLES: image 1 is the previous feature graphic to revise; image 2 is the exact app icon; image 3 is the actual home screen; image 4 is the actual Image Studio result screen; image 5 is the newly approved richer portrait campaign STYLE only. Preserve the brand, exact copy, and pearl-lavender/violet/mint palette, but add a more dimensional and visually engaging product group.
+Keep text verbatim: brand 'Local LLM'; hero headline on two lines 'Your AI.' then 'On your device.'; supporting phrase 'Chat. Write. Create.' All other added graphics must have no text.
+COMPOSITION AND SAFE MARGINS ARE CRITICAL: leave the outer 18–20% of all four canvas edges mostly empty pale background. All important foreground elements including every full phone, all text, icon and feature graphics must fit inside the central region x=185 to 840 and y=90 to 410. The group must feel centered as a whole. Do not enlarge the foreground to fill the banner.
+Text group on the left within that safe area, icon and brand on top, bold headline, short supporting line below. On the right, use TWO complete small elegant Android phones with thin graphite/titanium frames, straight parallel edges and subtle centered punch-hole cameras: main phone showing the supplied home UI, rear phone showing the actual Image Studio lake-result UI. Lightly overlap the phone edges while keeping both screens distinguishable. Suggested positions: rear phone x=610–720 and y=125–370; main phone x=705–825 and y=110–390. Never crop phones.
+Add 3 or 4 beautifully rendered feature graphics around this two-phone group, all WITHIN the safe area: a small frosted lavender chat bubble with three dots above-left of the phones; a mint-centered violet AI processor tile below-left; a small pearl document tile and a tiny floating image-frame accent close to the right phone. These should be visible but small enough not to compete with the headline, and must not cover the main app UI or text. Use the richer satin/glass 3D finish seen in style image 5. Gentle lavender ribbon can sit behind them, faint and restrained; no foreground objects near outer edges. Soft studio light, subtle clean contact shadows, premium minimal marketing art. No people, pricing, store badges, ratings, awards, cloud graphics or extra copy. Entire banner 1024 x 500.
+
